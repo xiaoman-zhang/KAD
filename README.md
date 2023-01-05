@@ -52,33 +52,15 @@ The CheXpert **test** dataset has recently been made public, and can be found by
 
 ## Model Checkpoints
 
-**1. Med-KEBERT**
-
-Med-KEBERT on [![Hugging Face's logo](https://huggingface.co/front/assets/huggingface_logo-noborder.svg)**Hugging Face**](https://huggingface.co/) 
-
-https://huggingface.co/xmcmic/Med-KEBERT
-
-`from transformers import AutoModel,BertConfig,AutoTokenizer`
-
-`bert_model_name = "xmcmic/Med-KEBERT"`
-
-`tokenizer = AutoTokenizer.from_pretrained(bert_model_name,do_lower_case=True)`
-
-`config = BertConfig.from_pretrained(bert_model_name, output_hidden_states=True)`
-
-`model = AutoModel.from_pretrained(bert_model_name, config=config)`
-
-
-
-**2. Pre-trained Model**
+**Later**
 
 
 
 ## Pre-training
 
-**1. Med-KEBERT**
+**1. Text Encoder**
 
-The UMLS knowledge base file used during pretraining is in  `./A2_KEBER/data`
+The UMLS knowledge base file used during pretraining is in  `./A2_KEBERT/data`
 
 run the following command to perform Med-KEBERT pretraining
 
