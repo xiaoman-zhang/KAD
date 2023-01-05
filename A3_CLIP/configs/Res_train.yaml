@@ -1,0 +1,31 @@
+train_entity_file: '../A1_DATA/MIMIC-CXR/json_preprocess/radgraph_umls.json'
+train_entity_graph_file: '../A1_DATA/MIMIC-CXR/json_preprocess/radgraph_entity_graphs.json'
+train_query_file:  '../A1_DATA/MIMIC-CXR/json_preprocess/radgraph_metric.csv'
+train_fg_query_file:  '../A1_DATA/MIMIC-CXR/json_preprocess/fg_radgraph_metric.csv'
+
+chestxray_train_file: '../A1_DATA/ChestXray14/official_train.csv'
+chestxray_valid_file: '../A1_DATA/ChestXray14/official_valid.csv'
+chestxray_test_file: '../A1_DATA/ChestXray14/official_test.csv'
+
+chexpert_train_file: '../A1_DATA/CheXpert/train.csv'
+chexpert_valid_file: '../A1_DATA/CheXpert/valid.csv'
+chexpert_test_file: '../A1_DATA/CheXpert/test.csv'
+
+padchest_all_test_file: '../A1_DATA/PadChest/Physician_label193_all.csv'
+padchest_paperlist_test_file: '../A1_DATA/PadChest/Physician_label193_paperlist.csv'
+
+
+mrsty_file: '../A1_DATA/UMLS/MRSTY.csv'
+
+image_res: 224
+batch_size: 64
+test_batch_size: 64
+num_classes: 40
+temp: 0.07
+mlm_probability: 0.15
+queue_size: 8192
+momentum: 0.995
+alpha: 0.4
+
+optimizer: {opt: adamW, lr: 5e-5, weight_decay: 0.02}
+schedular: {sched: cosine, lr: 5e-5, epochs: 100, min_lr: 1e-6, decay_rate: 1, warmup_lr: 1e-6, warmup_epochs: 20, cooldown_epochs: 0}
