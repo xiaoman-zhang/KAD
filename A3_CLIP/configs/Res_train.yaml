@@ -12,8 +12,6 @@ chexpert_valid_file: '../A1_DATA/CheXpert/valid.csv'
 chexpert_test_file: '../A1_DATA/CheXpert/test.csv'
 
 padchest_all_test_file: '../A1_DATA/PadChest/Physician_label193_all.csv'
-padchest_paperlist_test_file: '../A1_DATA/PadChest/Physician_label193_paperlist.csv'
-
 
 mrsty_file: '../A1_DATA/UMLS/MRSTY.csv'
 

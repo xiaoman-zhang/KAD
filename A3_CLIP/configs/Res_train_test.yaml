@@ -1,24 +1,19 @@
-train_entity_file: '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/MIMIC-CXR/json_preprocess/radgraph_umls.json'
-train_entity_graph_file: '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/MIMIC-CXR/json_preprocess/radgraph_entity_graphs.json'
-train_query_file:  '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/MIMIC-CXR/json_preprocess/radgraph_metric.csv'
-train_fg_query_file:  '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/MIMIC-CXR/json_preprocess/fg_radgraph_metric.csv'
+train_entity_file: '../A1_DATA/MIMIC-CXR/json_preprocess/radgraph_umls.json'
+train_entity_graph_file: '../A1_DATA/MIMIC-CXR/json_preprocess/radgraph_entity_graphs.json'
+train_query_file:  '../A1_DATA/MIMIC-CXR/json_preprocess/radgraph_metric.csv'
+train_fg_query_file:  '../A1_DATA/MIMIC-CXR/json_preprocess/fg_radgraph_metric.csv'
 
-chestxray_train_file: '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/ChestXray14/binary_train.csv'
-chestxray_valid_file: '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/ChestXray14/binary_valid.csv'
-chestxray_test_file: '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/ChestXray14/official_test.csv'
+chestxray_train_file: '../A1_DATA/ChestXray14/binary_train.csv'
+chestxray_valid_file: '../A1_DATA/ChestXray14/binary_valid.csv'
+chestxray_test_file: '../A1_DATA/ChestXray14/official_test.csv'
 
-chexpert_train_file: '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/CheXpert/train.csv'
-chexpert_valid_file: '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/CheXpert/valid.csv'
-chexpert_test_file: '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/CheXpert/test.csv'
+chexpert_train_file: '../A1_DATA/CheXpert/train.csv'
+chexpert_valid_file: '../A1_DATA/CheXpert/valid.csv'
+chexpert_test_file: '../A1_DATA/CheXpert/test.csv'
 
-padchest_seen_test_file: '/mnt/petrelfs/zhangxiaoman/DATA/Chestxray/PadChest/Physician_label193_seen.csv'
-padchest_unseen_test_file: '/mnt/petrelfs/zhangxiaoman/DATA/Chestxray/PadChest/Physician_label193_unseen.csv'
-padchest_all_test_file: '/mnt/petrelfs/zhangxiaoman/DATA/Chestxray/PadChest/Physician_label193_all.csv'
-padchest_paperlist_test_file: '/mnt/petrelfs/zhangxiaoman/DATA/Chestxray/PadChest/Physician_label193_paperlist.csv'
+padchest_all_test_file: '../A1_DATA/PadChest/Physician_label193_all.csv'
 
-rsna_test_file: '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/RSNA/test.csv'
-
-mrsty_file: '/mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/A1_DATA/UMLS/MRSTY.csv'
+mrsty_file: '../A1_DATA/UMLS/MRSTY.csv'
 
 image_res: 224
 batch_size: 64
