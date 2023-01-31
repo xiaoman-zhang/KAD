@@ -11,19 +11,19 @@ def parse_args():
     parser.add_argument(
         "--mrdef-csv-file",
         type=str,
-        default='/mnt/petrelfs/zhangxiaoman/CODE/2022_CLIP/A3_CLP_UMLS/data/MRDEF_name.csv',
+        default='./data/MRDEF_name.csv',
         help="Path to json filewith training data",
     )
     parser.add_argument(
         "--umls-kg-file",
         type=str,
-        default='/mnt/petrelfs/zhangxiaoman/CODE/2022_CLIP/A3_CLP_UMLS/data/umls_kg.csv',
+        default='./data/umls_kg.csv',
         help="Path to json file with validation data",
     )
     parser.add_argument(
         "--umls-cui-file",
         type=str,
-        default='/mnt/petrelfs/zhangxiaoman/CODE/2022_CLIP/A3_CLP_UMLS/data/umls_cui.csv',
+        default='./data/umls_cui.csv',
         help="Path to json file with validation data",
     )
     parser.add_argument(
@@ -44,13 +44,13 @@ def parse_args():
     parser.add_argument(
         "--output_dir",
         type=str,
-        default="/mnt/petrelfs/zhangxiaoman/MODEL/2022_CLIP/A3_CLP_UMLS/",
+        default="../MODEL/A2_KEBERT/",
         help="Where to store tensorboard logs. Use None to avoid storing logs.",
     )
     parser.add_argument(
         "--aws_output_dir",
         type=str,
-        default="s3://zhangxiaoman/MODEL/2022_CLIP/A3_CLP_UMLS/",
+        default="../MODEL/A2_KEBERT/",
         help="Where to store tensorboard logs. Use None to avoid storing logs.",
     )
     parser.add_argument(

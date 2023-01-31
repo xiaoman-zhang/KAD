@@ -269,4 +269,3 @@ def copy_codebase(args):
 
 if __name__ == "__main__":
     main()
-# srun --partition=shlab_medical_pretrain --mpi=pmi2 --gres=gpu:1  -n1 --ntasks-per-node=1  --job-name=rg_kebert --kill-on-bad-exit=1 python main.py  --batch-size 256 --max_length 128 --logs logs --name medkgbert --output_dir /mnt/petrelfs/zhangxiaoman/CODE/KAD/MODEL/A2_KEBERT --aws_output_dir /mnt/petrelfs/zhangxiaoman/CODE/KAD/MODEL/A2_KEBERT 

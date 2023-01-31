@@ -1,0 +1,530 @@
+CUI,DEF
+C0000039,Synthetic phospholipid used in liposomes and lipid bilayers to study biological membranes. It is also a major constituent of PULMONARY SURFACTANTS.
+C0000052,"In glycogen or amylopectin synthesis, the enzyme that catalyzes the transfer of a segment of a 1,4-alpha-glucan chain to a primary hydroxy group in a similar glucan chain. EC 2.4.1.18."
+C0000084,"Found in various tissues, particularly in four blood-clotting proteins including prothrombin, in kidney protein, in bone protein, and in the protein present in various ectopic calcifications."
+C0000096,"A potent cyclic nucleotide phosphodiesterase inhibitor; due to this action, the compound increases cyclic AMP and cyclic GMP in tissue and thereby activates CYCLIC NUCLEOTIDE-REGULATED PROTEIN KINASES"
+C0000097,"A dopaminergic neurotoxic compound which produces irreversible clinical, chemical, and pathological alterations that mimic those found in Parkinson disease."
+C0000098,"An active neurotoxic metabolite of 1-METHYL-4-PHENYL-1,2,3,6-TETRAHYDROPYRIDINE. The compound reduces dopamine levels, inhibits the biosynthesis of catecholamines, depletes cardiac norepinephrine and inactivates tyrosine hydroxylase. These and other toxic effects lead to cessation of oxidative phosphorylation, ATP depletion, and cell death. The compound, which is related to PARAQUAT, has also been used as an herbicide."
+C0000102,A suspected industrial carcinogen (and listed as such by OSHA). Its N-hydroxy metabolite is strongly carcinogenic and mutagenic.
+C0000103,"A tool for the study of liver damage which causes bile stasis and hyperbilirubinemia acutely and bile duct hyperplasia and biliary cirrhosis chronically, with changes in hepatocyte function. It may cause skin and kidney damage."
+C0000107,An ANGIOTENSIN II analog which acts as a highly specific inhibitor of ANGIOTENSIN TYPE 1 RECEPTOR.
+C0000119,A group of corticosteroids bearing a hydroxy group at the 11-position.
+C0000139,"A synthetic prostaglandin E analog that protects the gastric mucosa, prevents ulceration, and promotes the healing of peptic ulcers. The protective effect is independent of acid inhibition. It is also a potent inhibitor of pancreatic function and growth of experimental tumors."
+C0000163,"A group of hydroxycorticosteroids bearing a hydroxy group at the 17-position. Urinary excretion of these compounds is used as an index of adrenal function. They are used systemically in the free alcohol form, but with esterification of the hydroxy groups, topical effectiveness is increased."
+C0000165,A class of enzymes that catalyzes the oxidation of 17-hydroxysteroids to 17-ketosteroids. EC 1.1.-.
+C0000167,Steroids that contain a ketone group at position 17.
+C0000172,"11 beta,18,21-Trihydroxypregn-4-ene-3,20-dione."
+C0000173,An analog of desoxycorticosterone which is substituted by a hydroxyl group at the C-18 position.
+C0000176,"19-Iodocholest-5-en-3 beta-ol. A cholesterol derivative usually substituted with radioactive iodine in the 19 position. The compound is an adrenal cortex scanning agent used in the assessment of patients suspected of having Cushing's syndrome, hyperaldosteronism, pheochromocytoma and adrenal remnants following total adrenalectomy."
+C0000184,"Nucleoside-2',3'-cyclic phosphate nucleotidohydrolase. Enzymes that catalyze the hydrolysis of the 2'- or 3'- phosphate bonds of 2',3'-cyclic nucleotides. Also hydrolyzes nucleoside monophosphates. Includes EC 3.1.4.16 and EC 3.1.4.37. EC 3.1.4.-."
+C0000189,An enzyme that catalyzes the conversion of ATP into a series of (2'-5') linked oligoadenylates and pyrophosphate in the presence of double-stranded RNA. These oligonucleotides activate an endoribonuclease (RNase L) which cleaves single-stranded RNA. Interferons can act as inducers of these reactions.
+C0000194,A reagent used for the determination of iron.
+C0000204,Metabolite of ASCORBIC ACID and the oxidized form of the lactone DEHYDROASCORBIC ACID.
+C0000215,"An herbicide with strong irritant properties. Use of this compound on rice fields, orchards, sugarcane, rangeland, and other noncrop sites was terminated by the EPA in 1985. (From Merck Index, 11th ed)"
+C0000220,An herbicide with irritant effects on the eye and the gastrointestinal system.
+C0000232,A dye used as a reagent in the determination of vitamin C.
+C0000246,An enzyme involved in the biosynthesis of isoleucine and valine. It converts 2-acetolactate into 3-hydroxy-2-oxo-isovalerate. Also acts on 2-hydroxy-2-acetobutyrate to form 2-hydroxy-2-oxo-3-methylvalerate. EC 5.4.99.3.
+C0000248,A hepatic carcinogen whose mechanism of activation involves N-hydroxylation to the aryl hydroxamic acid followed by enzymatic sulfonation to sulfoxyfluorenylacetamide. It is used to study the carcinogenicity and mutagenicity of aromatic amines.
+C0000254,"The D-enantiomer is a potent and specific antagonist of NMDA glutamate receptors (RECEPTORS, N-METHYL-D-ASPARTATE). The L form is inactive at NMDA receptors but may affect the AP4 (2-amino-4-phosphonobutyrate; APB) excitatory amino acid receptors."
+C0000257,"A metabolite in the principal biochemical pathway of lysine. It antagonizes neuroexcitatory activity modulated by the glutamate receptor, N-METHYL-D-ASPARTATE; (NMDA)."
+C0000263,A purine that is an isomer of ADENINE (6-aminopurine).
+C0000275,2-Chloroadenosine. A metabolically stable analog of adenosine which acts as an adenosine receptor agonist. The compound has a potent effect on the peripheral and central nervous system.
+C0000287,A chemical reagent that reacts with and modifies chemically the tryptophan portion of protein molecules. Used for 'active site' enzyme studies and other protein studies. Sometimes referred to as Koshland's reagent.
+C0000289,Simple amine found in the brain. It may be modulator of sympathetic functions. Its derivatives are adrenergic agonists and antagonists. It is also used in chemical industry.
+C0000291,"An enzyme that catalyzes the first step in the biosynthetic pathway to LEUCINE, forming isopropyl malate from acetyl-CoA and alpha-ketoisovaleric acid. This enzyme was formerly listed as EC 4.1.3.12."
+C0000294,"A sulfhydryl compound used to prevent urothelial toxicity by inactivating metabolites from ANTINEOPLASTIC AGENTS, such as IFOSFAMIDE or CYCLOPHOSPHAMIDE."
+C0000300,A naphthalene derivative with carcinogenic action.
+C0000324,"A group of enzymes that catalyze the reversible reduction-oxidation reaction of 20-hydroxysteroids, such as from a 20-ketosteroid to a 20-alpha-hydroxysteroid (EC 1.1.1.149) or to a 20-beta-hydroxysteroid (EC 1.1.1.53)."
+C0000325,A polycyclic aromatic hydrocarbon that consists of five fused rings with carcinogenic activity. 20-Methylcholanthrene is often used in experimental cancer studies.
+C0000334,"A physiologically active metabolite of VITAMIN D. The compound is involved in the regulation of calcium metabolism, alkaline phosphatase activity, and enhancing the calcemic effect of CALCITRIOL."
+C0000340,"A mitochondrial cytochrome P450 enzyme that catalyzes the 1-alpha-hydroxylation of 25-hydroxyvitamin D3 (also known as 25-hydroxycholecalciferol) in the presence of molecular oxygen and NADPH-FERRIHEMOPROTEIN REDUCTASE. This enzyme, encoded by CYP27B1 gene, converts 25-hydroxyvitamin D3 to 1-alpha,25-dihydroxyvitamin D3 which is the active form of VITAMIN D in regulating bone growth and calcium metabolism. This enzyme is also active on plant 25-hydroxyvitamin D2 (ergocalciferol)."
+C0000343,"9,10-Secoergosta-5,7,10(19),22-tetraene-3,25-diol. Biologically active metabolite of vitamin D2 which is more active in curing rickets than its parent. The compound is believed to attach to the same receptor as vitamin D2 and 25-hydroxyvitamin D3."
+C0000359,"Enzymes that catalyze the hydrolysis of CYCLIC AMP to form adenosine 5'-phosphate. The enzymes are widely distributed in animal tissue and control the level of intracellular cyclic AMP. Many specific enzymes classified under this heading demonstrate additional spcificity for 3',5'-cyclic IMP and CYCLIC GMP."
+C0000360,Enzymes that catalyze the hydrolysis of cyclic GMP to yield guanosine-5'-phosphate.
+C0000368,A chemically and thermodynamically stable derivative of BENZIDINE.
+C0000370,A material used in the manufacture of azo dyes that is toxic to skin and carcinogenic in several species.
+C0000376,A deaminated metabolite of LEVODOPA.
+C0000378,A synthetic precursor of norepinephrine that is used in the treatment of PARKINSONIAN DISORDERS and ORTHOSTATIC HYPOTENSION.
+C0000379,An amphetamine derivative that inhibits uptake of catecholamine neurotransmitters. It is a hallucinogen. It is less toxic than its methylated derivative but in sufficient doses may still destroy serotonergic neurons and has been used for that purpose experimentally.
+C0000392,"An amino acid formed in vivo by the degradation of dihydrouracil and carnosine. Since neuronal uptake and neuronal receptor sensitivity to beta-alanine have been demonstrated, the compound may be a false transmitter replacing GAMMA-AMINOBUTYRIC ACID. A rare genetic disorder, hyper-beta-alaninemia, has been reported."
+C0000399,4-Hydroxy-1-(beta-D-ribofuranosyl)-2-pyridinone. Analog of uridine lacking a ring-nitrogen in the 3-position. Functions as an antineoplastic agent.
+C0000402,"An antilipemic agent which lowers cholesterol, triglycerides, serum beta-lipoproteins and phospholipids. It acts by interfering with the enzymatic steps involved in the conversion of acetate to hydroxymethylglutaryl coenzyme A as well as inhibiting the activity of HYDROXYMETHYLGLUTARYL COA REDUCTASES which is the rate limiting enzyme in the biosynthesis of cholesterol."
+C0000404,Enzymes that reversibly catalyze the oxidation of a 3-hydroxyacyl CoA to 3-ketoacyl CoA in the presence of NAD. They are key enzymes in the oxidation of fatty acids and in mitochondrial fatty acid synthesis.
+C0000407,An oxidation product of tryptophan metabolism. It may be a free radical scavenger and a carcinogen.
+C0000413,Catalyze the oxidation of 3-hydroxysteroids to 3-ketosteroids.
+C0000424,"An inhibitor of glutamate decarboxylase. It decreases the GAMMA-AMINOBUTYRIC ACID concentration in the brain, thereby causing convulsions."
+C0000427,Metabolite of serotonin and norepinephrine.
+C0000435,"An enzyme of long-chain fatty acid synthesis, that adds a two-carbon unit from malonyl-(acyl carrier protein) to another molecule of fatty acyl-(acyl carrier protein), giving a beta-ketoacyl-(acyl carrier protein) with the release of carbon dioxide. EC 2.3.1.41."
+C0000473,An aminobenzoic acid isomer that combines with pteridine and GLUTAMIC ACID to form FOLIC ACID. The fact that 4-aminobenzoic acid absorbs light throughout the UVB range has also resulted in its use as an ingredient in SUNSCREENS.
+C0000477,One of the POTASSIUM CHANNEL BLOCKERS with secondary effect on calcium currents which is used mainly as a research tool and to characterize channel subtypes.
+C0000481,One of the FURANS with a carbonyl thereby forming a cyclic lactone. It is an endogenous compound made from gamma-aminobutyrate and is the precursor of gamma-hydroxybutyrate. It is also used as a pharmacological agent and solvent.
+C0000498,A potent mutagen and carcinogen. It is a reduction product of 4-NITROQUINOLINE-1-OXIDE. It binds with nucleic acids and inactivates both bacteria and bacteriophage.
+C0000500,A flavoprotein that catalyzes the synthesis of protocatechuic acid from 4-hydroxybenzoate in the presence of molecular oxygen. EC 1.14.13.2.
+C0000503,"hydroxy derivative of butyric acid substituted at the gamma, or 4 position; intermediate in the metabolism of gamma-aminobutyric acid (GABA)."
+C0000506,"Substances found in many plants, containing the 4-hydroxycoumarin radical. They interfere with vitamin K and the blood clotting mechanism, are tightly protein-bound, inhibit mitochondrial and microsomal enzymes, and are used as oral anticoagulants."
+C0000507,An enzyme that catalyzes the conversion of 4-hydroxyphenylpyruvate plus oxygen to homogentisic acid and carbon dioxide. EC 1.13.11.27.
+C0000511,A potent mutagen and carcinogen. This compound and its metabolite 4-HYDROXYAMINOQUINOLINE-1-OXIDE bind to nucleic acids. It inactivates bacteria but not bacteriophage.
+C0000530,A glycoprotein enzyme present in various organs and in many cells. The enzyme catalyzes the hydrolysis of a 5'-ribonucleotide to a ribonucleoside and orthophosphate in the presence of water. It is cation-dependent and exists in a membrane-bound and soluble form. EC 3.1.3.5.
+C0000543,Tryptamine substituted with two hydroxyl groups in positions 5 and 6. It is a neurotoxic serotonin analog that destroys serotonergic neurons preferentially and is used in neuropharmacologic research.
+C0000544,Tryptamine substituted with two hydroxyl groups in positions 5 and 7. It is a neurotoxic serotonin analog that destroys serotonergic neurons preferentially and is used in neuropharmacology as a tool.
+C0000545,"An essential, polyunsaturated, 20-carbon omega-3 fatty acid with anti-inflammatory and potential antineoplastic and chemopreventive activities. Eicosapentaenoic acid (EPA) may activate caspase 3, resulting in apoptosis in susceptible tumor cell populations. In addition, this agent may inhibit cyclooxygenase-2 (COX-2), resulting in inhibition of prostaglandin synthesis and prostaglandin-mediated inflammatory processes."
+C0000546,A 20-carbon unsaturated fatty acid containing 4 alkyne bonds. It inhibits the enzymatic conversion of arachidonic acid to prostaglandins E(2) and F(2a).
+C0000551,"The unspecified form of the steroid, normally a major metabolite of TESTOSTERONE with androgenic activity. It has been implicated as a regulator of gonadotropin secretion."
+C0000578,The immediate precursor in the biosynthesis of SEROTONIN from tryptophan. It is used as an antiepileptic and antidepressant.
+C0000588,"major of two hallucinogenic components of Teonanacatl, the sacred mushroom of Mexico, the other component being psilocin."
+C0000589,Serotonin derivative proposed as potentiator for hypnotics and sedatives.
+C0000598,"The hydrochloride salt form of ticlopidine, a thienopyridine derivative with anticoagulant property. Ticlopidine hydrochloride irreversibly inhibits adenosine-diphosphate (ADP)-induced platelet-fibrinogen binding by binding to the glycoprotein (GP) IIb/IIIA complex, one of the two purinergic receptors activated by ADP. Inhibition of the receptor activation causes the inhibition of adenylyl cyclase, results in decreased levels of cyclic adenosine monophosphate and thereby interferes with platelet membrane function and subsequent, platelet-platelet interaction, release of platelet granule constituents and prolongation of bleeding time."
+C0000608,"A synthetic lysine derivative with antifibrinolytic activity. Aminocaproic acid competitively inhibits activation of plasminogen, thereby reducing conversion of plasminogen to plasmin (fibrinolysin), an enzyme that degrades fibrin clots as well as fibrinogen and other plasma proteins including the procoagulant factors V and VIII. Aminocaproic acid competitively reduces the conversion of plasminogen to plasmin by plasminogen activators. It directly inhibits proteolytic activity of plasmin, but higher doses are required than are needed to reduce plasmin formation. Aminocaproic acid is used in the treatment of hemorrhage and prophylactically against hemorrhage, including hyperfibrinolysis-induced hemorrhage and postsurgical hemorrhage."
+C0000610,A vitamin antagonist which has teratogenic effects.
+C0000617,The physiologically active and stable hydrolysis product of EPOPROSTENOL. Found in nearly all mammalian tissue.
+C0000618,"An antimetabolite antineoplastic agent with immunosuppressant properties. It interferes with nucleic acid synthesis by inhibiting purine metabolism and is used, usually in combination with other drugs, in the treatment of or in remission maintenance programs for leukemia."
+C0000641,"7,8,8a,9a-Tetrahydrobenzo(10,11)chryseno (3,4-b)oxirene-7,8-diol. A benzopyrene derivative with carcinogenic and mutagenic activity."
+C0000644,"A drug-metabolizing enzyme found in the hepatic, placental and intestinal microsomes that metabolizes 7-alkoxycoumarin to 7-hydroxycoumarin. The enzyme is cytochrome P-450- dependent."
+C0000656,A stable peptide fragment originating from the N-terminal domain of collagen type IV.
+C0000658,"A 20-carbon-chain fatty acid, unsaturated at positions 8, 11, and 14. It differs from arachidonic acid, 5,8,11,14-eicosatetraenoic acid, only at position 5."
+C0000661,"A long-acting derivative of cyclic AMP. It is an activator of cyclic AMP-dependent protein kinase, but resistant to degradation by cyclic AMP phosphodiesterase."
+C0000665,"An antiseptic with mild fungistatic, bacteriostatic, anthelmintic, and amebicidal action. It is also used as a reagent and metal chelator, as a carrier for radio-indium for diagnostic purposes, and its halogenated derivatives are used in addition as topical anti-infective agents and oral antiamebics."
+C0000677,Polycyclic aromatic hydrocarbon found in tobacco smoke that is a potent carcinogen.
+C0000696,a kind of nerve fiber
+C0000697,A type of gamma-globin encoded by the A gamma globin gene on CHROMOSOME 11.
+C0000699,"An ionophorous, polyether antibiotic from Streptomyces chartreusensis. It binds and transports CALCIUM and other divalent cations across membranes and uncouples oxidative phosphorylation while inhibiting ATPase of rat liver mitochondria. The substance is used mostly as a biochemical tool to study the role of divalent cations in various biological systems."
+C0000702,"An isoform of DNA that occurs in an environment rich in SODIUM and POTASSIUM ions. It is a right-handed helix with 11 base pairs per turn, a pitch of 0.256 nm per base pair and a helical diameter of 2.3 nm."
+C0000714,An organothiophosphate insecticide.
+C0000715,Places where animals are slaughtered and dressed for market.
+C0000722,"Classification system for assessing impact injury severity developed and published by the American Association for Automotive Medicine. It is the system of choice for coding single injuries and is the foundation for methods assessing multiple injuries or for assessing cumulative effects of more than one injury. These include Maximum AIS (MAIS), Injury Severity Score (ISS), and Probability of Death Score (PODS)."
+C0000723,A shortened form of a word or phrase.
+C0000726,That portion of the body that lies between the THORAX and the PELVIS.
+C0000727,"A clinical syndrome with acute abdominal pain that is severe, localized, and rapid in onset. Acute abdomen may be caused by a variety of disorders, injuries, or diseases."
+C0000729,A type of abdominal pain characterized by a feeling of contractions and typically fluctuating in intensity. []
+C0000731,Distention of the abdomen. [HPO:probinson]
+C0000734,An abnormal enlargement or swelling in the abdomen. []
+C0000735,New abnormal growth of tissue in the ABDOMEN.
+C0000737,"Sensation of discomfort, distress, or agony in the abdominal region."
+C0000739,"Muscles forming the ABDOMINAL WALL including RECTUS ABDOMINIS; ABDOMINAL OBLIQUE MUSCLES, transversus abdominis, pyramidalis muscles and quadratus abdominis."
+C0000741,The 6th cranial nerve which originates in the ABDUCENS NUCLEUS of the PONS and sends motor fibers to the lateral rectus muscles of the EYE. Damage to the nerve or its nucleus disrupts horizontal eye movement control.
+C0000742,"replication defective strain of murine leukemia virus capable of transforming lymphoid cells and producing a rapidly progressing lymphoid leukemia after superinfection with Maloney, Friend or Rauscher murine leukemia virus."
+C0000744,"An autosomal recessive disorder of lipid metabolism. It is caused by mutation of the microsomal triglyceride transfer protein that catalyzes the transport of lipids (TRIGLYCERIDES; CHOLESTEROL ESTERS; PHOSPHOLIPIDS) and is required in the secretion of BETA-LIPOPROTEINS (low density lipoproteins or LDL). Features include defective intestinal lipid absorption, very low serum cholesterol level, and near absent LDL."
+C0000768,Malformations of organs or body parts during development in utero.
+C0000769,Used with organs for congenital defects producing changes in the morphology of the organ. It is used also for abnormalities in animals.
+C0000771,"Congenital abnormalities caused by medicinal substances or drugs of abuse given to or taken by the mother, or to which she is inadvertently exposed during the manufacture of such substances. The concept excludes abnormalities resulting from exposure to non-medicinal chemicals in the environment."
+C0000772,Congenital abnormalities that affect more than one organ or body structure.
+C0000773,Congenital changes in the morphology of organs produced by exposure to ionizing or non-ionizing radiation.
+C0000778,The major human blood type system which depends on the presence or absence of two antigens A and B. Type O occurs when neither A nor B is present and AB when both are present. A and B are genetic factors that determine the presence of enzymes for the synthesis of certain glycoproteins mainly in the red cell membrane.
+C0000780,"The fourth stomach of ruminating animals. It is also called the ""true"" stomach. It is an elongated pear-shaped sac lying on the floor of the abdomen, on the right-hand side, and roughly between the seventh and twelfth ribs. It leads to the beginning of the small intestine. (From Black's Veterinary Dictionary, 17th ed)"
+C0000781,Products of conception expelled or removed upon miscarriage or termination of a pregnancy.
+C0000782,Chemical substances that interrupt pregnancy after implantation.
+C0000783,Non-steroidal chemical compounds with abortifacient activity.
+C0000784,Steroidal compounds with abortifacient activity.
+C0000786,Expulsion of the product of FERTILIZATION before completing the term of GESTATION and without deliberate interference.
+C0000788,Individuals requesting induced abortions.
+C0000804,Illegal termination of pregnancy.
+C0000806,Abortion performed because of possible fetal defects.
+C0000809,Three or more consecutive spontaneous abortions.
+C0000810,Premature loss of PREGNANCY in which not all the products of CONCEPTION have been expelled.
+C0000812,"Termination of pregnancy under conditions allowed under local laws. (POPLINE Thesaurus, 1991)"
+C0000814,The retention in the UTERUS of a dead FETUS two months or more after its DEATH.
+C0000817,"Any type of abortion, induced or spontaneous, that is associated with infection of the UTERUS and its appendages. It is characterized by FEVER, uterine tenderness, and foul discharge."
+C0000820,"Abortion induced to save the life or health of a pregnant woman. (From Dorland, 28th ed)"
+C0000821,"UTERINE BLEEDING from a GESTATION of less than 20 weeks without any CERVICAL DILATATION. It is characterized by vaginal bleeding, lower back discomfort, or midline pelvic cramping and a risk factor for MISCARRIAGE."
+C0000823,Premature expulsion of the FETUS in animals.
+C0000828,"A process in psychotherapy in which the patient is ""desensitized"" to emotionally painful, often forgotten (repressed) memories by recalling and reacting to them in the ""safety"" of the treatment setting."
+C0000829,"A toxic lectin from the seeds of jequirity, Abrus precatorius L. Very active poison. Five different proteins have so far been isolated: Abrus agglutinin, the component responsible for: hemagglutinating activity, & abrins a-d, the toxic principals each consisting of two peptide chains are held together by disulfide bonds."
+C0000832,"Premature separation of the normally implanted PLACENTA from the UTERUS. Signs of varying degree of severity include UTERINE BLEEDING, uterine MUSCLE HYPERTONIA, and FETAL DISTRESS or FETAL DEATH."
+C0000833,"Accumulation of purulent material in tissues, organs, or circumscribed spaces, usually associated with signs of infection."
+C0000843,"Abscission-accelerating plant growth substance isolated from young cotton fruit, leaves of sycamore, birch, and other plants, and from potatoes, lemons, avocados, and other fruits."
+C0000846,A congenital abnormality resulting in the absence of an anatomical structure.
+C0000849,Chronic absence from work or other duty.
+C0000850,"A genus of zygomycetous fungi, family Mucoraceae, order MUCORALES, which sometimes causes infection in humans."
+C0000853,"A noninvasive method for assessing BODY COMPOSITION. It is based on the differential absorption of X-RAYS (or GAMMA RAYS) by different tissues such as bone, fat and other soft tissues. The source of (X-ray or gamma-ray) photon beam is generated either from radioisotopes such as GADOLINIUM 153, IODINE 125, or Americanium 241 which emit GAMMA RAYS in the appropriate range; or from an X-ray tube which produces X-RAYS in the desired range. It is primarily used for quantitating BONE MINERAL CONTENT, especially for the diagnosis of OSTEOPOROSIS, and also in measuring BONE MINERALIZATION."
+C0000857,"The process of creating a summary of the main points of an article, argument, or theory."
+C0000858,Works about activities performed to identify concepts and aspects of published information and research reports.
+C0000866,Natural teeth or teeth roots used as anchorage for a fixed or removable denture or other prosthesis (such as an implant) serving the same purpose.
+C0000869,A plant genus of the family FABACEAE. The gums and tanning agents obtained from Acacia are called GUM ARABIC. The common name catechu is more often used for Areca catechu (ARECA).
+C0000872,"Medical complexes consisting of medical school, hospitals, clinics, libraries, administrative facilities, etc."
+C0000877,"Organizations representing specialized fields which are accepted as authoritative; may be non-governmental, university or an independent research organization, e.g., National Academy of Sciences, Brookings Institution, etc."
+C0000879,facultative parasite of humans usually causes chronic infectin of the skin or central nervous system; causative agents of keratitis (corneal inflammation and opacity); most common ameba in fresh water and soil.
+C0000880,Infection of the cornea by an ameboid protozoan which may cause corneal ulceration leading to blindness.
+C0000881,"A phylum of parasitic worms, closely related to tapeworms and containing two genera: Moniliformis, which sometimes infects man, and Macracanthorhynchus, which infects swine."
+C0000886,Erythrocytes with protoplasmic projections giving the cell a thorny appearance.
+C0000887,"Separation of the prickle cells of the stratum spinosum of the epidermis, resulting in atrophy of the prickle cell layer. It is seen in diseases such as pemphigus vulgaris (see PEMPHIGUS) and DARIER DISEASE."
+C0000889,"A circumscribed melanosis consisting of a brown-pigmented, velvety verrucosity or fine papillomatosis appearing in the axillae and other body folds. It occurs in association with endocrine disorders, underlying malignancy, administration of certain drugs, or as in inherited disorder."
+C0000890,"A large, subclass of arachnids comprising the MITES and TICKS, including parasites of plants, animals, and humans, as well as several important disease vectors."
+C0000894,An increase in the rate of speed.
+C0000905,"The 11th cranial nerve which originates from NEURONS in the MEDULLA and in the CERVICAL SPINAL CORD. It has a cranial root, which joins the VAGUS NERVE (10th cranial) and sends motor fibers to the muscles of the LARYNX, and a spinal root, which sends motor fibers to the TRAPEZIUS and the sternocleidomastoid muscles."
+C0000918,Efforts and designs to reduce the incidence of unexpected undesirable events in various environments and situations.
+C0000919,Tendency toward involvement in accidents. Implies certain personality characteristics which predispose to accidents.
+C0000921,Falls due to slipping or tripping which may result in injury.
+C0000924,"Unexpected and unintentional events, typically resulting in ACCIDENTAL INJURIES."
+C0000925,A wound or cleft resulted from tissue separation into parts or laid open or penetrated with a sharp edge or instrument.
+C0000928,Unanticipated events associated with AIRCRAFT.
+C0000929,ACCIDENTS which occur within the home.
+C0000930,An accident taking place on the site of a commercial enterprise.
+C0000931,"Unforeseen occurrences, especially injuries in the course of work-related activities."
+C0000932,"Accidents on streets, roads, and highways involving drivers, passengers, pedestrians, or vehicles. Traffic accidents refer to AUTOMOBILES (passenger cars, buses, and trucks), BICYCLING, and MOTORCYCLES but not OFF-ROAD MOTOR VEHICLES; RAILROADS nor snowmobiles."
+C0000934,Adaptation to a new environment or to a change in the old.
+C0000936,"The dioptric adjustment of the EYE (to attain maximal sharpness of retinal imagery for an object of regard) referring to the ability, to the mechanism, or to the process. Ocular accommodation is the effecting of refractive changes by changes in the shape of the CRYSTALLINE LENS. Loosely, it refers to ocular adjustments for VISION, OCULAR at various distances. (Cline et al., Dictionary of Visual Science, 4th ed)"
+C0000938,System of recording financial transactions.
+C0000940,Short-term debt obligations and assets occurring in the regular course of operational transactions.
+C0000941,"Certification as complying with a standard set by non-governmental organizations, applied for by institutions, programs, and facilities on a voluntary basis."
+C0000943,Process of cultural change in which one group or members of a group assimilate various cultural patterns from another.
+C0000946,"A cardioselective beta-1 adrenergic antagonist with little effect on the bronchial receptors. The drug has stabilizing and quinidine-like effects on cardiac rhythm, as well as weak inherent sympathomimetic action."
+C0000949,"Acetylated sulfone that is slowly metabolized to give long-term, low blood levels of DAPSONE. It has antimicrobial and antimalarial action, but is mainly used as a depot leprostatic agent."
+C0000954,"Tricyclic ethylene-bridged naphthalene derivatives. They are found in petroleum residues and coal tar and used as dye intermediates, in the manufacture of plastics, and in insecticides and fungicides."
+C0000956,"A coumarin that is used as an anticoagulant. Its actions and uses are similar to those of WARFARIN. (From Martindale, The Extra Pharmacopoeia, 30th ed, p233)"
+C0000959,A phenothiazine that is used in the treatment of PSYCHOSES.
+C0000960,"The maleate salt of acepromazine, a phenothiazine derivative with depressant effect on the central nervous system. Acepromazine acts as a dopamine receptor antagonist in the CNS, thereby causing sedation, muscular relaxation and a reduction in spontaneous activity. Its fast-acting neuroleptic effect with low toxicity is of particular value in veterinary medicine."
+C0000961,A genus of green algae found in the Mediterranean and other warm seas.
+C0000962,The part of the pelvis that comprises the pelvic socket where the head of FEMUR joins to form HIP JOINT (acetabulofemoral joint).
+C0000966,"A colorless, flammable liquid used in the manufacture of acetic acid, perfumes, and flavors. It is also an intermediate in the metabolism of alcohol. It has a general narcotic action and also causes irritation of mucous membranes. Large doses may cause death from respiratory paralysis."
+C0000967,"Diethers with the structure -C(OR'')(OR'''), where R'' and R''' are not hydrogen. Mixed acetals have R'' and R''' groups which differ."
+C0000968,"Derivatives of acetamide that are used as solvents, as mild irritants, and in organic synthesis."
+C0000970,"Analgesic antipyretic derivative of acetanilide. It has weak anti-inflammatory properties and is used as a common analgesic, but may cause liver, blood cell, and kidney damage."
+C0000974,"Compounds based on N-phenylacetamide, that are similar in structure to 2-PHENYLACETAMIDES. They are precursors of many other compounds. They were formerly used as ANALGESICS and ANTIPYRETICS, but often caused lethal METHEMOGLOBINEMIA."
+C0000975,"salts or esters of acetic acid in which the terminal hydrogen atom is replaced by a metal, for instance copper acetate Cu(CH3COO)2, or where substitution is by a radical, for instance ethyl acetate CH3COOC2H5."
+C0000977,An enzyme that catalyzes reversibly the phosphorylation of acetate in the presence of a divalent cation and ATP with the formation of acetylphosphate and ADP. It is important in the glycolysis process. EC 2.7.2.1.
+C0000979,"Derivatives of ACETIC ACID. Included under this heading are a broad variety of acid forms, salts, esters, and amides that contain the carboxymethane structure."
+C0000981,"One of the CARBONIC ANHYDRASE INHIBITORS that is sometimes effective against absence seizures. It is sometimes useful also as an adjunct in the treatment of tonic-clonic, myoclonic, and atonic seizures, particularly in women whose seizures occur or are exacerbated at specific times in the menstrual cycle. However, its usefulness is transient often because of rapid development of tolerance. Its antiepileptic effect may be due to its inhibitory effect on brain carbonic anhydrase, which leads to an increased transneuronal chloride gradient, increased chloride current, and increased inhibition. (From Smith and Reynard, Textbook of Pharmacology, 1991, p337)"
+C0000983,"Product of the oxidation of ethanol and of the destructive distillation of wood. It is used locally, occasionally internally, as a counterirritant and also as a reagent. (Stedman, 26th ed)"
+C0000987,"Compounds used extensively as acetylation, oxidation and dehydrating agents and in the modification of proteins and enzymes."
+C0000988,Salts and derivatives of acetoacetic acid.
+C0000990,A species of gram-negative bacteria of the family ACETOBACTERACEAE found in FLOWERS and FRUIT. Cells are ellipsoidal to rod-shaped and straight or slightly curved.
+C0000992,A sulfonylurea hypoglycemic agent that is metabolized in the liver to 1-hydrohexamide.
+C0000996,A product of fermentation. It is a component of the butanediol cycle in microorganisms. In mammals it is oxidized to carbon dioxide.
+C0000997,An enzyme that catalyzes the conversion of acetoin to diacetyl in the presence of NAD.
+C0000999,A flavoprotein enzyme that catalyzes the formation of acetolactate from 2 moles of PYRUVATE in the biosynthesis of VALINE and the formation of acetohydroxybutyrate from pyruvate and alpha-ketobutyrate in the biosynthesis of ISOLEUCINE. This enzyme was formerly listed as EC 4.1.3.18.
+C0001002,A colorless liquid used as a solvent and an antiseptic. It is one of the ketone bodies produced during ketoacidosis.
+C0001004,Compounds in which a methyl group is attached to the cyano moiety.
+C0001006,Derivatives of the simplest aromatic ketone acetophenone (of general formula C6H5C(O)CH3).
+C0001011,"An alkylating agent that forms DNA ADDUCTS at the C-8 position in GUANINE, resulting in single strand breaks. It has demonstrated carcinogenic action."
+C0001017,An iodinated radiographic contrast medium used as acetrizoate sodium in HYSTEROSALPINGOGRAPHY.
+C0001019,An enzyme that catalyzes the formation of acetoacetyl-CoA from two molecules of ACETYL COA. Some enzymes called thiolase or thiolase-I have referred to this activity or to the activity of ACETYL-COA C-ACYLTRANSFERASE.
+C0001021,Enzyme that catalyzes the final step of fatty acid oxidation in which ACETYL COA is released and the CoA ester of a fatty acid two carbons shorter is formed.
+C0001022,"A carboxylating enzyme that catalyzes the conversion of ATP, acetyl-CoA, and HCO3- to ADP, orthophosphate, and malonyl-CoA. It is a biotinyl-protein that also catalyzes transcarboxylation. The plant enzyme also carboxylates propanoyl-CoA and butanoyl-CoA (From Enzyme Nomenclature, 1992) EC 6.4.1.2."
+C0001024,An enzyme that catalyzes reversibly the hydrolysis of acetyl-CoA to yield CoA and acetate. The enzyme is involved in the oxidation of fatty acids. EC 3.1.2.1.
+C0001026,"Acetyl CoA participates in the biosynthesis of fatty acids and sterols, in the oxidation of fatty acids and in the metabolism of many amino acids. It also acts as a biological acetylating agent."
+C0001028,"An enzyme that catalyzes the formation of CoA derivatives from ATP, acetate, and CoA to form AMP, pyrophosphate, and acetyl CoA. It acts also on propionates and acrylates. EC 6.2.1.1."
+C0001034,hepatic carcinogen whose mechanism of activation involves N-hydroxylation to the arylhydroxamic acid followed by enzymatic sulfonation to sulfoxyfluorenylacetamide; used to study the carcinogenicity and mutagenicity of aromatic amines.
+C0001038,"Formation of an acetyl derivative. (Stedman, 25th ed)"
+C0001040,An acetic acid ester of CARNITINE that facilitates movement of ACETYL COA into the matrices of mammalian MITOCHONDRIA during the oxidation of FATTY ACIDS.
+C0001041,"A neurotransmitter found at neuromuscular junctions, autonomic ganglia, parasympathetic effector junctions, a subset of sympathetic effector junctions, and at many sites in the central nervous system."
+C0001044,"An enzyme that catalyzes the hydrolysis of ACETYLCHOLINE to CHOLINE and acetate. In the CNS, this enzyme plays a role in the function of peripheral neuromuscular junctions. EC 3.1.1.7."
+C0001046,"Any substance that inhibits acetylcholinesterase (AchE), an enzyme that breaks down acetylcholine (Ach) in the synaptic cleft. Inhibition of acetylcholinesterase results in an increase in the level and duration of action of acetylcholine."
+C0001047,The N-acetyl derivative of CYSTEINE. It is used as a mucolytic agent to reduce the viscosity of mucous secretions. It has also been shown to have antiviral effects in patients with HIV due to inhibition of viral stimulation by reactive oxygen intermediates.
+C0001049,Cardioactive derivatives of lanatoside A or of DIGITOXIN. They are used for fast digitalization in congestive heart failure.
+C0001050,Alpha- or beta-acetyl derivatives of DIGOXIN or lanatoside C from Digitalis lanata. They are better absorbed and longer acting than digoxin and are used in congestive heart failure.
+C0001052,The simplest two carbon alkyne with the formula HCCH.
+C0001053,An enzyme that catalyzes the conversion of acetate esters and water to alcohols and acetate. EC 3.1.1.6.
+C0001055,The N-acetyl derivative of galactosamine.
+C0001056,The N-acetyl derivative of glucosamine.
+C0001057,"A beta-N-Acetylhexosaminidase that catalyzes the hydrolysis of terminal, non-reducing 2-acetamido-2-deoxy-beta-glucose residues in chitobiose and higher analogs as well as in glycoproteins. Has been used widely in structural studies on bacterial cell walls and in the study of diseases such as MUCOLIPIDOSIS and various inflammatory disorders of muscle and connective tissue."
+C0001060,Peptidoglycan immunoadjuvant originally isolated from bacterial cell wall fragments; also acts as pyrogen and may cause arthritis; stimulates both humoral and cellular immunity.
+C0001061,A major metabolite of PROCAINAMIDE. Its anti-arrhythmic action may cause cardiac toxicity in kidney failure.
+C0001064,An enzyme that catalyzes the transfer of a methyl group from S-adenosylmethionine to N-acetylserotonin to form N-acetyl-5-methoxytryptamine (MELATONIN).
+C0001066,"An agent used as a substrate in assays for cholinesterases, especially to discriminate among enzyme types."
+C0001068,"Enzymes catalyzing the transfer of an acetyl group, usually from acetyl coenzyme A, to another compound. EC 2.3.1."
+C0001072,Success in bringing an effort to the desired end; the degree or level of success attained in some specified area (esp. scholastic) or in general.
+C0001074,Tendon that connects the muscles in the back of the calf to the HEEL BONE.
+C0001075,A lack of HYDROCHLORIC ACID in GASTRIC JUICE despite stimulation of gastric secretion.
+C0001076,A genus of gram-negative organisms including saprophytic and parasitic or pathogenic species.
+C0001077,"An organism originally isolated from sewage, manure, humus, and soil, but recently found as a parasite in mammals and birds."
+C0001078,"Gram-negative organisms including apparently free-living saphrophytes as well as mammalian and avian parasites, and possibly pathogens."
+C0001079,A rare group of disorders characterized by defective development of bones and cartilage.
+C0001080,"An autosomal dominant disorder that is the most frequent form of short-limb dwarfism. Affected individuals exhibit short stature caused by rhizomelic shortening of the limbs, characteristic facies with frontal bossing and mid-face hypoplasia, exaggerated lumbar lordosis, limitation of elbow extension, GENU VARUM, and trident hand. (Online Mendelian Inheritance in Man, http://www.ncbi.nlm.nih.gov/Omim, MIM#100800, April 20, 2001)"
+C0001084,Any bacteria that is not assigned to the species level but can be assigned to the Achromobacter genus level.
+C0001100,"Preparation of TOOTH surfaces and DENTAL MATERIALS with etching agents, usually phosphoric acid, to roughen the surface to increase adhesion or osteointegration."
+C0001109,An enzyme that catalyzes the conversion of an orthophosphoric monoester and water to an alcohol and orthophosphate. EC 3.1.3.2.
+C0001111,"Acidic water usually pH 2.5 to 4.5, which poisons the ecosystem and adversely affects plants, fishes, and mammals. It is caused by industrial pollutants, mainly sulfur oxides and nitrogen oxides, emitted into the atmosphere and returning to earth in the form of acidic rain water."
+C0001117,The balance between acids and bases in the BODY FLUIDS. The pH (HYDROGEN-ION CONCENTRATION) of the arterial BLOOD provides an index for the total body acid-base balance.
+C0001118,Disturbances in the ACID-BASE EQUILIBRIUM of the body.
+C0001122,"A pathologic condition of acid accumulation or depletion of base in the body. The two main types are RESPIRATORY ACIDOSIS and metabolic acidosis, due to metabolic acid build up."
+C0001125,Acidosis caused by accumulation of lactic acid more rapidly than it can be metabolized. It may occur spontaneously or in association with diseases such as DIABETES MELLITUS; LEUKEMIA; or LIVER FAILURE.
+C0001126,"A group of genetic disorders of the KIDNEY TUBULES characterized by the accumulation of metabolically produced acids with elevated plasma chloride, hyperchloremic metabolic ACIDOSIS. Defective renal acidification of URINE (proximal tubules) or low renal acid excretion (distal tubules) can lead to complications such as HYPOKALEMIA, hypercalcinuria with NEPHROLITHIASIS and NEPHROCALCINOSIS, and RICKETS."
+C0001127,Respiratory retention of carbon dioxide. It may be chronic or acute.
+C0001128,"Chemical compounds which yield hydrogen ions or protons when dissolved in water, whose hydrogen can be replaced by metals or basic radicals, or which react with bases to form salts and water (neutralization). An extension of the term includes substances dissolved in media other than water. (Grant & Hackh's Chemical Dictionary, 5th ed)"
+C0001129,Carboxylic acids that have open-chain molecular structures as opposed to ring-shaped structures.
+C0001130,Dicarboxylic acids in which one of the carboxyl groups (-COOH) has been replaced by an aldehyde group (-CHO).
+C0001131,Carboxylic acids that have a homocyclic ring structure in which all the ring atoms are carbon.
+C0001132,A class of acids containing a ring structure in which at least one atom other than CARBON is incorporated.
+C0001133,"Inorganic acids with a non metal, other than carbon, attached to hydrogen, or an acid radical containing no carbon."
+C0001134,"A sodium fluoride solution, paste or powder, which has been acidulated to pH 3 to 4 and buffered with a phosphate. It is used in the prevention of dental caries."
+C0001138,"A genus of gram-negative bacteria of the family MORAXELLACEAE, found in soil and water and of uncertain pathogenicity."
+C0001139,Infections with bacteria of the genus ACINETOBACTER.
+C0001143,An anthracycline produced by Streptomyces galilaeus. It has potent antineoplastic activity.
+C0001144,"A chronic disorder of the pilosebaceous apparatus associated with an increase in sebum secretion. It is characterized by open comedones (blackheads), closed comedones (whiteheads), and pustular nodules. The cause is unknown, but heredity and age are predisposing factors."
+C0001145,A type of acneiform disorder in which secondary pyogenic infection in and around pilosebaceous structures ends in keloidal scarring. It manifests as persistent folliculitis of the back of the neck associated with occlusion of the follicular orifices. It is most often encountered in black or Asian men.
+C0001156,An enzyme that catalyzes the reversible hydration of cis-aconitate to yield citrate or isocitrate. It is one of the citric acid cycle enzymes. EC 4.2.1.3.
+C0001157,Dried root of Aconitum napellus.
+C0001158,A tricarboxylic acid with the formula (COOH)-CH2-C(COOH)=CH-COOH.
+C0001159,A C19 norditerpenoid alkaloid (DITERPENES) from the root of ACONITUM; DELPHINIUM and larkspurs. It activates VOLTAGE-GATED SODIUM CHANNELS. It has been used to induce ARRHYTHMIAS in experimental animals and it has anti-inflammatory and anti-neuralgic properties.
+C0001161,"Objective tests of middle ear function based on the difficulty (impedance) or ease (admittance) of sound flow through the middle ear. These include static impedance and dynamic impedance (i.e., tympanometry and impedance tests in conjunction with intra-aural muscle reflex elicitation). This term is used also for various components of impedance and admittance (e.g., compliance, conductance, reactance, resistance, susceptance)."
+C0001162,The 8th cranial nerve. The vestibulocochlear nerve has a cochlear part (COCHLEAR NERVE) which is concerned with hearing and a vestibular part (VESTIBULAR NERVE) which mediates the sense of balance and head position. The fibers of the cochlear nerve originate from neurons of the SPIRAL GANGLION and project to the cochlear nuclei (COCHLEAR NUCLEUS). The fibers of the vestibular nerve arise from neurons of Scarpa's ganglion and project to the VESTIBULAR NUCLEI.
+C0001163,"Pathological processes of the VESTIBULOCOCHLEAR NERVE, including the branches of COCHLEAR NERVE and VESTIBULAR NERVE. Common examples are VESTIBULAR NEURITIS, cochlear neuritis, and ACOUSTIC NEUROMA. Clinical signs are varying degree of HEARING LOSS; VERTIGO; and TINNITUS."
+C0001164,Use of sound to elicit a response in the nervous system.
+C0001166,"The branch of physics that deals with sound and sound waves. In medicine it is often applied in procedures in speech and hearing studies. With regard to the environment, it refers to the characteristics of a room, auditorium, theatre, building, etc. that determines the audibility or fidelity of sounds in it. (From Random House Unabridged Dictionary, 2d ed)"
+C0001169,"Deficiency of a coagulation factor that is not caused by genetic alterations. Causes include vitamin K deficiency, amyloidosis, and severe liver disease."
+C0001175,"An acquired defect of cellular immunity associated with infection by the human immunodeficiency virus (HIV), a CD4-positive T-lymphocyte count under 200 cells/microliter or less than 14% of total lymphocytes, and increased susceptibility to opportunistic infections and malignant neoplasms. Clinical manifestations also include emaciation (wasting) and dementia. These elements reflect criteria for AIDS as defined by the CDC in 1993."
+C0001180,A mitosporic fungal genus with many reported ascomycetous teleomorphs. Cephalosporin antibiotics are derived from this genus.
+C0001185,"A cationic cytochemical stain specific for cell nuclei, especially DNA. It is used as a supravital stain and in fluorescence cytochemistry. It may cause mutations in microorganisms."
+C0001186,Compounds that include the structure of acridine.
+C0001187,"3,6-Diamino-10-methylacridinium chloride mixt. with 3,6-acridinediamine. Fluorescent dye used as a local antiseptic and also as a biological stain. It intercalates into nucleic acids thereby inhibiting bacterial and viral replication."
+C0001193,"An autosomal dominant inherited type of acrocephalosyndactyly caused by mutations in the FGFR2 gene. It is characterized by early closure of the sutures between the skull bones, bulging eyes, low-set ears, fusion of the second, third, and forth fingers, and fusion of the toes."
+C0001197,"Inflammation involving the skin of the extremities, especially the hands and feet. Several forms are known, some idiopathic and some hereditary. The infantile form is called Gianotti-Crosti syndrome."
+C0001198,"A condition seen primarily in childhood, most often resulting from chronic exposure to MERCURY COMPOUNDS which may result in encephalopathy and POLYNEUROPATHY. Clinical features include pain, swelling and pinkish discoloration of the fingers and toes, weakness in the extremities, extreme irritability, HYPERESTHESIA, and alterations in level of consciousness. (From Menkes, Textbook of Child Neurology, 5th ed, p603)"
+C0001202,Overgrowth of the stratum corneum characterized by flesh-coloured or slightly pigmented smooth or warty papules on the upper surface of hands and feet. [HPO:skoehler]
+C0001204,Unsaturated three-carbon aldehyde.
+C0001206,"WHAT: Acromegaly:	Hypersecretion of growth hormone from a pituitary tumor resulting in insidious increase in the skeleton, soft tissues and organs.	WHY:	Acromegaly can result in an arthropathy with initial cartilage hypertrophy resulting in widening of the cartilage space on radiographs. The cartilage then undergoes premature osteoarthritis change with productive bony change characterized by broad distal tufts in the phalanges."
+C0001208,The gliding joint formed by the outer extremity of the CLAVICLE and the inner margin of the ACROMION PROCESS of the SCAPULA.
+C0001209,The lateral extension of the spine of the SCAPULA and the highest point of the SHOULDER.
+C0001210,A pyrano-acridone alkaloid found in RUTACEAE plants.
+C0001214,A trypsin-like enzyme of spermatozoa which is not inhibited by alpha 1 antitrypsin.
+C0001216,"The cap-like structure covering the anterior portion of SPERM HEAD. Acrosome, derived from LYSOSOMES, is a membrane-bound organelle that contains the required hydrolytic and proteolytic enzymes necessary for sperm penetration of the egg in FERTILIZATION."
+C0001218,"Colorless, odorless crystals that are used extensively in research laboratories for the preparation of polyacrylamide gels for electrophoresis and in organic synthesis, and polymerization. Some of its polymers are used in sewage and wastewater treatment, permanent press fabrics, and as soil conditioning agents."
+C0001219,"Derivatives of acrylic acid (the structural formula CH2=CHCO2H), including its salts and esters."
+C0001222,"Polymers of high molecular weight which are derived from acrylic acid, methacrylic acid or other related compounds and are capable of being molded and then hardened to form useful components."
+C0001223,"A highly poisonous compound used widely in the manufacture of plastics, adhesives and synthetic rubber."
+C0001231,Symptom complex due to ACTH production by non-pituitary neoplasms.
+C0001237,"An extract from calf blood containing inorganic salts, amino acids, polypeptides and purines, but no proteins nor antigenic substances or blood group characteristics. Its exact composition is unknown. It has been proposed as a radiation-protective agent."
+C0001239,"diverse family of cytoskeletal proteins which bind actin, thereby stabilizing or destabilizing microfilaments, anchoring them to other cell structures, or subserving intracellular translocation and motility."
+C0001241,"Expressing unconscious emotional conflicts or feelings, often of hostility or love, through overt behavior."
+C0001245,"A protein factor that regulates the length of R-actin. It is chemically similar, but immunochemically distinguishable from actin."
+C0001246,"A trivalent radioactive element and the prototypical member of the actinide family. It has the atomic symbol Ac, and atomic number 89. Its principal isotope is 227 and it decays primarily by beta-emission."
+C0001247,"A disease characterized by suppurative and granulomatous lesions in the respiratory tract, upper alimentary tract, skin, kidneys, joints, and other tissues. Actinobacillus lignieresii infects cattle and sheep while A. equuli infects horses and pigs."
+C0001248,"genus of Pasteurellaceae described as gram negative, nonsporeforming, nonmotile, facultative anaerobes; most members are found both as pathogens and commensal organisms in the respiratory, alimentary, and genital tracts of animals."
+C0001249,Infections with bacteria of the genus ACTINOBACILLUS.
+C0001250,"genus of the family Actinomycetaceae of the order Actinomycetales; a genus of gram positive, rod shaped bacteria whose organisms are nonmotile; filaments that may be present in certain species are either straight or wavy and may have swollen or clubbed heads."
+C0001252,"A species of anaerobic, Gram positive, rod shaped bacteria assigned to the phylum Actinobacteria. This bacteria hydrolyzes esculin, produces acid from xylose and is urease and catalase negative. A. israelii is found in the flora of the human oral and nasopharyngeal tract and in animals and is the most frequent cause of actinomycosis in humans."
+C0001253,A family of bacteria including numerous parasitic and pathogenic forms.
+C0001254,"order of gram positive, primarily aerobic bacteria that tend to form branching filaments."
+C0001255,Infections with bacteria of the order ACTINOMYCETALES.
+C0001259,"group of peptide antibiotic agents, isolated from several species of Streptomyces (originally Actinomyces), that are active against gram positive bacteria, fungi, and neoplasms; they form complexes with DNA and therefore inhibit RNA synthesis, primarily the ribosomal type."
+C0001261,Infections with bacteria of the genus ACTINOMYCES.
+C0001264,"A form of ACTINOMYCOSIS characterized by slow-growing inflammatory lesions of the lymph nodes that drain the mouth (lumpy jaw), reddening of the overlying skin, and intraperitoneal abscesses."
+C0001268,An antibiotic produced by Streptomyces spectabilis. It is active against gram-negative bacteria and used for the treatment of GONORRHEA.
+C0001271,"Filamentous proteins that are the main constituent of the thin filaments of muscle fibers. The filaments (known also as filamentous or F-actin) can be dissociated into their globular subunits; each subunit is composed of a single polypeptide 375 amino acids long. This is known as globular or G-actin. In conjunction with MYOSINS, actin is responsible for the contraction and relaxation of muscle."
+C0001272,Abrupt changes in the membrane potential that sweep along the CELL MEMBRANE of excitable cells in response to excitation stimuli.
+C0001275,"Carbon that has been treated to create small, low-volume pores that increase the surface area available for adsorption."
+C0001282,"A method of chemical analysis based on the detection of characteristic radionuclides following a nuclear bombardment. It is also known as radioactivity analysis. (McGraw-Hill Dictionary of Scientific and Technical Terms, 4th ed)"
+C0001283,Loose-fitting removable orthodontic appliances which redirect the pressures of the facial and masticatory muscles onto the teeth and their supporting structures to produce improvements in tooth arrangements and occlusal relations.
+C0001285,"The act or practice of killing for reasons of mercy, i.e., in order to release a person or animal from incurable disease, intolerable suffering, or undignified death. (from Beauchamp and Walters, Contemporary Issues in Bioethics, 5th ed)"
+C0001288,"The performance of the basic activities of self care, such as dressing, ambulation, or eating."
+C0001289,Bouts of physical irritability or movement alternating with periods of quiescence. It includes biochemical activity and hormonal activity which may be cellular. These cycles are shorter than 24 hours and include sleep-wakefulness cycles and the periodic activation of the digestive system.
+C0001291,A protein complex of actin and MYOSINS occurring in muscle. It is the essential contractile substance of muscle.
+C0001296,"The application of probability and statistical methods to calculate the risk of occurrence of any event, such as onset of illness, recurrent disease, hospitalization, disability, or death. It may include calculation of the anticipated money costs of such events and of the premiums necessary to provide for payment of such costs."
+C0001299,The occupational discipline of the traditional Chinese methods of ACUPUNCTURE THERAPY for treating disease by inserting needles along specific pathways or meridians.
+C0001300,"Analgesia produced by the insertion of ACUPUNCTURE needles at certain ACUPUNCTURE POINTS on the body. This activates small myelinated nerve fibers in the muscle which transmit impulses to the spinal cord and then activate three centers - the spinal cord, midbrain and pituitary/hypothalamus - to produce analgesia."
+C0001301,Use of ACUPUNCTURE to block the afferent nerve impulses from reaching the brain to reduce the sensation of pain for surgery.
+C0001302,Designated locations along nerves or organ meridians for inserting acupuncture needles.
+C0001306,Acute hepatitis resulting from ingestion of alcohol.
+C0001309,Atopic conjunctivitis that is of relatively short duration and that has a rapid onset.
+C0001311,Acute inflammation of the bronchioles usually caused by the respiratory syncytial virus.
+C0001314,Disease having a short and relatively severe course.
+C0001327,"An acute inflammatory process affecting the larynx. It is caused by bacteria, viruses, or vocal strain. Signs and symptoms include sore throat, cough, swallowing difficulties, and hoarseness."
+C0001339,"An acute inflammatory process that leads to necrosis of the pancreatic parenchyma. Signs and symptoms include severe abdominal pain, nausea, vomiting, diarrhea, fever, and shock. Causes include alcohol consumption, presence of gallstones, trauma, and drugs."
+C0001342,An acute inflammatory process that affects the tissues that surround and support the teeth.
+C0001344,"An acute and painful inflammatory process that affects the pharynx. It is usually caused by viruses and less often bacteria. Signs and symptoms include discomfort on swallowing, low-grade fever, headache, and earache."
+C0001347,"blood proteins that are produced in response to acute illness; including fibrinogen, ceruloplasmin, certain enzyme inhibitors and C reactive protein."
+C0001349,"An early local inflammatory reaction to insult or injury that consists of fever, an increase in inflammatory humoral factors, and an increased synthesis by hepatocytes of a number of proteins or glycoproteins usually found in the plasma."
+C0001361,"An acute inflammation of the tonsils caused by viruses or bacteria. Signs and symptoms include fever, enlargement of the tonsils, difficulty swallowing, and enlargement of the regional lymph nodes."
+C0001363,Ischemia of the intestine that is rapid in onset.
+C0001364,"Extensive and rapid death of parenchymal cells in the LIVER, often due to exposure to toxic materials or drug-induced injury. It is characterized by a soft, flabby, yellow-brown wrinkled, and shrunken liver. It was called ""acute yellow atrophy""."
+C0001367,A GUANOSINE analog that acts as an antimetabolite. Viruses are especially susceptible. Used especially against herpes.
+C0001369,Consists of a polypeptide chain and 4'-phosphopantetheine linked to a serine residue by a phosphodiester bond. Acyl groups are bound as thiol esters to the pantothenyl group. Acyl carrier protein is involved in every step of fatty acid synthesis by the cytoplasmic system.
+C0001374,S-Acyl coenzyme A. Fatty acid coenzyme A derivatives that are involved in the biosynthesis and oxidation of fatty acids as well as in ceramide formation.
+C0001383,The addition of an organic acid radical into a molecule.
+C0001388,"An enzyme that forms CMP-acylneuraminic acids, which donate the N-acylneuraminic acid residues to the terminal sugar residue of a ganglioside or glycoprotein. EC 2.7.7.43."
+C0001390,"Enzymes from the transferase class that catalyze the transfer of acyl groups from donor to acceptor, forming either esters or amides. (From Enzyme Nomenclature 1992) EC 2.3."
+C0001392,A tricyclo bridged hydrocarbon.
+C0001396,"A condition of fainting spells caused by heart block, often an atrioventricular block, that leads to BRADYCARDIA and drop in CARDIAC OUTPUT. When the cardiac output becomes too low, the patient faints (SYNCOPE). In some cases, the syncope attacks are transient and in others cases repetitive and persistent."
+C0001398,"Changes in biological features that help an organism cope with its ENVIRONMENT. These changes include physiological (ADAPTATION, PHYSIOLOGICAL), phenotypic and genetic changes."
+C0001399,"The adjustment of the eye to variations in the intensity of light. Light adaptation is the adjustment of the eye when the light threshold is increased; DARK ADAPTATION when the light is greatly reduced. (From Cline et al., Dictionary of Visual Science, 4th ed)"
+C0001400,The non-genetic biological changes of an organism in response to challenges in its ENVIRONMENT.
+C0001403,"disease characterized by hypotension, weight loss, anorexia, weakness, and sometimes a bronze-like melanotic hyperpigmentation of the skin; due to tuberculosis or autoimmune induced disease (hypofunction) of the adrenal glands that results in deficiency of aldosterone and cortisol."
+C0001407,A purine base and a fundamental unit of ADENINE NUCLEOTIDES.
+C0001412,"A class of nucleotide translocases found abundantly in mitochondria that function as integral components of the inner mitochondrial membrane. They facilitate the exchange of ADP and ATP between the cytosol and the mitochondria, thereby linking the subcellular compartments of ATP production to those of ATP utilization."
+C0001414,An enzyme catalyzing the formation of AMP from adenine and phosphoribosylpyrophosphate. It can act as a salvage enzyme for recycling of adenine into nucleic acids. EC 2.4.2.7.
+C0001417,"A genus of the family PARVOVIRIDAE, subfamily PARVOVIRINAE, which are dependent on a coinfection with helper adenoviruses or herpesviruses for their efficient replication. The type species is Adeno-associated virus 2."
+C0001418,A malignant epithelial tumor with a glandular organization.
+C0001420,"An adenocarcinoma containing finger-like processes of vascular connective tissue covered by neoplastic epithelium, projecting into cysts or the cavity of glands or follicles. It occurs most frequently in the ovary and thyroid gland. (Stedman, 25th ed)"
+C0001422,"A benign neoplasm composed of glandular and fibrous tissues, with a relatively large proportion of glands. (Stedman, 25th ed)"
+C0001425,"Excision of the adenoids. (Dorland, 28th ed)"
+C0001427,An inflammation of the adenoid tissue. []
+C0001428,A collection of lymphoid nodules on the posterior wall and roof of the NASOPHARYNX.
+C0001429,"A benign tumor characterized histologically by tall columnar epithelium within a lymphoid tissue stroma. It is usually found in the salivary glands, especially the parotid."
+C0001430,A benign epithelial tumor with a glandular organization.
+C0001431,"A small tumor of the anterior lobe of the pituitary gland whose cells stain with basic dyes. It may give rise to excessive secretion of ACTH, resulting in CUSHING SYNDROME. (Dorland, 27th ed)"
+C0001432,A benign tumor of the anterior pituitary in which the cells do not stain with acidic or basic dyes.
+C0001433,"A benign tumor, usually found in the anterior lobe of the pituitary gland, whose cells stain with acid dyes. Such pituitary tumors may give rise to excessive secretion of growth hormone, resulting in gigantism or acromegaly. A specific type of acidophil adenoma may give rise to nonpuerperal galactorrhea. (Dorland, 27th ed)"
+C0001442,"A malignant neoplasm arising simultaneously or consecutively in mesodermal tissue and glandular epithelium of the same part. (Stedman, 25th ed)"
+C0001443,A nucleoside that is composed of ADENINE and D-RIBOSE. Adenosine or adenosine derivatives play many important biological roles in addition to being components of DNA and RNA. Adenosine itself is a neurotransmitter.
+C0001451,"A subtype of ADENOSINE RECEPTOR that is found expressed in a variety of tissues including the BRAIN and DORSAL HORN NEURONS. The receptor is generally considered to be coupled to the GI, INHIBITORY G-PROTEIN which causes down regulation of CYCLIC AMP."
+C0001452,"A subclass of ADENOSINE RECEPTORS that are generally considered to be coupled to the GS, STIMULATORY G-PROTEIN which causes up regulation of CYCLIC AMP."
+C0001455,"An adenine nucleotide containing one phosphate group which is esterified to both the 3'- and 5'-positions of the sugar moiety. It is a second messenger and a key intracellular regulator, functioning as a mediator of activity for a number of hormones, including epinephrine, glucagon, and ACTH."
+C0001457,An enzyme that catalyzes the hydrolysis of ADENOSINE to INOSINE with the elimination of AMMONIA.
+C0001459,Adenosine 5'-(trihydrogen diphosphate). An adenine nucleotide containing two phosphate groups esterified to the sugar moiety at the 5'-position.
+C0001460,"Serves as the glycosyl donor for formation of bacterial glycogen, amylose in green algae, and amylopectin in higher plants."
+C0001461,"An ester formed between the aldehydic carbon of RIBOSE and the terminal phosphate of ADENOSINE DIPHOSPHATE. It is produced by the hydrolysis of nicotinamide-adenine dinucleotide (NAD) by a variety of enzymes, some of which transfer an ADP-ribosyl group to target proteins."
+C0001462,Esters formed between the aldehydic carbon of sugars and the terminal phosphate of adenosine diphosphate.
+C0001464,An enzyme that catalyzes the formation of ADP plus AMP from adenosine plus ATP. It can serve as a salvage mechanism for returning adenosine to nucleic acids. EC 2.7.1.20.
+C0001465,"Adenine nucleotide containing one phosphate group esterified to the sugar moiety in the 2'-, 3'-, or 5'-position."
+C0001468,"5'-Adenylic acid, monoanhydride with sulfuric acid. The initial compound formed by the action of ATP sulfurylase on sulfate ions after sulfate uptake. Synonyms: adenosine sulfatophosphate; APS."
+C0001471,"A class of cell surface receptors that prefer ADENOSINE to other endogenous PURINES. Purinergic P1 receptors are widespread in the body including the cardiovascular, respiratory, immune, and nervous systems. There are at least two pharmacologically distinguishable types (A1 and A2, or Ri and Ra)."
+C0001473,"in addition to the classic mitochondrial enzyme, many structural (e.g. myosin) and transport (e.g. ion pump) proteins include an ATPase domain."
+C0001475,"The catalytic sector of proton-translocating ATPase complexes. It contains five subunits named alpha, beta, gamma, delta and eta."
+C0001476,Cation-transporting proteins that utilize the energy of ATP hydrolysis for the transport of CALCIUM. They differ from CALCIUM CHANNELS which allow calcium to pass through a membrane without the use of energy.
+C0001477,"An enzyme that catalyzes the hydrolysis of ATP and is activated by millimolar concentrations of either Ca(2+) or Mg(2+). Unlike CA(2+)-TRANSPORTING ATPASE it does not require the second divalent cation for its activity, and is not sensitive to orthovanadate. (Prog Biophys Mol Biol 1988;52(1):1). A subgroup of EC 3.6.1.3."
+C0001479,"An enzyme that catalyzes the active transport system of sodium and potassium ions across the cell wall. Sodium and potassium ions are closely coupled with membrane ATPase which undergoes phosphorylation and dephosphorylation, thereby providing energy for transport of these ions against concentration gradients."
+C0001480,An adenine nucleotide containing three phosphate groups esterified to the sugar moiety. In addition to its crucial roles in metabolism adenosine triphosphate is a neurotransmitter.
+C0001483,"nonenveloped, ds-DNA in single linear molecule, at least 10 polypeptides, assembly of virus particle in nucleus of usually one host, transmission by direct or indirect contact with urine or feces in throat or eye."
+C0001486,Virus diseases caused by the ADENOVIRIDAE.
+C0001487,Respiratory and conjunctival infections caused by 33 identified serotypes of human adenoviruses.
+C0001489,A genus of ADENOVIRIDAE that infects birds. The type species is FOWL ADENOVIRUS A.
+C0001490,"Species of the genus MASTADENOVIRUS, causing a wide range of diseases in humans. Infections are mostly asymptomatic, but can be associated with diseases of the respiratory, ocular, and gastrointestinal systems. Serotypes (named with Arabic numbers) have been grouped into species designated Human adenovirus A-G."
+C0001491,Species of the genus MASTADENOVIRUS associated with respiratory and enteric infections in primate hosts.
+C0001492,Enzymes of the lyase class that catalyze the formation of CYCLIC AMP and pyrophosphate from ATP.
+C0001497,An enzyme that catalyzes the phosphorylation of AMP to ADP in the presence of ATP or inorganic triphosphate. EC 2.7.4.3.
+C0001502,"An enzyme that, in the course of purine ribonucleotide biosynthesis, catalyzes the conversion of 5'-phosphoribosyl-4-(N-succinocarboxamide)-5-aminoimidazole to 5'-phosphoribosyl-4-carboxamide-5-aminoimidazole and the conversion of adenylosuccinic acid to AMP. EC 4.3.2.2."
+C0001503,"A carbon-nitrogen ligase. During purine ribonucleotide biosynthesis, this enzyme catalyzes the synthesis of adenylosuccinate from GTP; IMP; and aspartate with the formation of orthophosphate and GDP. EC 6.3.4.4."
+C0001506,"5'-Adenylic acid, monoanhydride with imidodiphosphoric acid. An analog of ATP, in which the oxygen atom bridging the beta to the gamma phosphate is replaced by a nitrogen atom. It is a potent competitive inhibitor of soluble and membrane-bound mitochondrial ATPase and also inhibits ATP-dependent reactions of oxidative phosphorylation."
+C0001511,A fibrous band of tissue that connects normally separate body regions.
+C0001515,A property of the surface of an object that makes it stick to another surface.
+C0001516,"Substances that cause the adherence of two surfaces. They include glues (properly collagen-derived adhesives), mucilages, sticky pastes, gums, resins, or latex."
+C0001519,"A syndrome characterized by a TONIC PUPIL that occurs in combination with decreased lower extremity reflexes. The affected pupil will respond more briskly to accommodation than to light (light-near dissociation) and is supersensitive to dilute pilocarpine eye drops, which induce pupillary constriction. Pathologic features include degeneration of the ciliary ganglion and postganglionic parasympathetic fibers that innervate the pupillary constrictor muscle. (From Adams et al., Principles of Neurology, 6th ed, p279)"
+C0001527,"Specialized connective tissue composed of fat cells (ADIPOCYTES). It is the site of stored FATS, usually in the form of TRIGLYCERIDES. In mammals, there are two types of adipose tissue, the WHITE FAT and the BROWN FAT. Their relative distributions vary in different species with most adipose tissue being white."
+C0001529,A rare disease characterized by multiple tumor-like fatty deposits that press on nerves in various sites causing pain and weakness. Often these lipoma-like structures are located on the trunk and limbs but not on the face and hands.
+C0001546,"Maladaptive reactions to identifiable psychosocial stressors occurring within a short time after onset of the stressor. They are manifested by either impairment in social or occupational functioning or by symptoms (depression, anxiety, etc.) that are in excess of a normal and expected reaction to the stressor."
+C0001548,Temporary maladaptive depressive signs and symptoms associated with a life event.
+C0001551,"Substances that augment, stimulate, activate, potentiate, or modulate the immune response at either the cellular or humoral level. The classical agents (Freund's adjuvant, BCG, Corynebacterium parvum, et al.) contain bacterial antigens. Some are endogenous (e.g., histamine, interferon, transfer factor, tuftsin, interleukin-1). Their mode of action is either non-specific, resulting in increased immune responsiveness to a wide variety of antigens, or antigen-specific, i.e., affecting a restricted type of immune response to a narrow group of antigens. The therapeutic efficacy of many biological response modifiers is related to their antigen-specific immunoadjuvanticity."
+C0001552,"Agents that aid or increase the action of the principle drug (DRUG SYNERGISM) or that affect the absorption, mechanism of action, metabolism, or excretion of the primary drug (PHARMACOKINETICS) in such a way as to enhance its effects."
+C0001554,Performing or possessing executive duties; acting as a supervisor or manager.
+C0001555,"Used with drugs for dosage forms, routes of administration, frequency and duration of administration, quantity of medication, and the effects of these factors."
+C0001557,"Administration of a soluble dosage form between the cheek and gingiva. It may involve direct application of a drug onto the buccal mucosa, as by painting or spraying."
+C0001558,The application of suitable drug dosage forms to the skin for either local or systemic effects.
+C0001559,The administration of drugs by the respiratory route. It includes insufflation into the respiratory tract.
+C0001560,Delivery of medications through the nasal mucosa.
+C0001561,"The insertion of drugs into the vagina to treat local infections, neoplasms, or to induce labor. The dosage forms may include medicated pessaries, irrigation fluids, and suppositories."
+C0001562,"The instillation or other administration of drugs into the bladder, usually to treat local disease, including neoplasms."
+C0001563,"The giving of drugs, chemicals, or other substances by mouth."
+C0001565,Administration of a soluble dosage form by placement under the tongue.
+C0001566,"The application of drug preparations to the surfaces of the body, especially the skin (ADMINISTRATION, CUTANEOUS) or mucous membranes. This method of treatment is used to avoid systemic side effects when high doses are required at a localized area or as an alternative systemic administration route, to avoid hepatic processing for example."
+C0001567,A location defined for administrative purposes.
+C0001568,Individuals responsible for the development of policy and supervision of the execution of plans and functional operations.
+C0001573,"Hospital department responsible for the flow of patients and the processing of admissions, discharges, transfers, and also most procedures to be carried out in the event of a patient's death."
+C0001575,"Appendages of the UTERUS which include the FALLOPIAN TUBES, the OVARY, and the supporting ligaments of the uterus (BROAD LIGAMENT; ROUND LIGAMENT)."
+C0001576,"Diseases of the uterine appendages (ADNEXA UTERI) including diseases involving the OVARY, the FALLOPIAN TUBES, and ligaments of the uterus (BROAD LIGAMENT; ROUND LIGAMENT)."
+C0001577,Inflammation of the appendages of the uterus.
+C0001578,"period of life beginning with the appearance of secondary sex characteristics and terminating with the cessation of somatic growth; typically between 12 and 20 years of age; when school grades are referenced, this age group is typically grade 5 or 6 and above; also index with appropriate human and clinical research terms."
+C0001580,Any observable response or action of an adolescent.
+C0001581,A branch of medicine pertaining to the diagnosis and treatment of diseases occurring during the period of ADOLESCENCE.
+C0001583,"The medical science that deals with the origin, diagnosis, prevention, and treatment of mental disorders in individuals 13-18 years."
+C0001584,Field of psychology involving the study of normal and abnormal behavior of adolescents. It includes mental processes as well as observable responses.
+C0001585,Adolescent hospitalized for short term care.
+C0001586,An adolescent who is receiving long-term in-patient services or who resides in an institutional setting.
+C0001593,"Voluntary acceptance of a child of other parents to be as one's own child, usually with legal confirmation."
+C0001595,A sterol usually substituted with radioactive iodine. It is an adrenal cortex scanning agent with demonstrated high adrenal concentration and superior adrenal imaging.
+C0001613,"The outer layer of the adrenal gland. It is derived from MESODERM and comprised of three zones (outer ZONA GLOMERULOSA, middle ZONA FASCICULATA, and inner ZONA RETICULARIS) with each producing various steroids preferentially, such as ALDOSTERONE; HYDROCORTISONE; DEHYDROEPIANDROSTERONE; and ANDROSTENEDIONE. Adrenal cortex function is regulated by pituitary ADRENOCORTICOTROPIN."
+C0001614,Pathological processes of the ADRENAL CORTEX.
+C0001616,Examinations that evaluate and monitor hormone production in the adrenal cortex.
+C0001617,"HORMONES produced by the ADRENAL CORTEX, including both steroid and peptide hormones. The major hormones produced are HYDROCORTISONE and ALDOSTERONE."
+C0001618,Tumors or cancers of the ADRENAL CORTEX.
+C0001621,Pathological processes of the ADRENAL GLANDS.
+C0001622,abnormally increased secretion of adrenal hormones.
+C0001623,"Insufficient production of steroid hormones (primarily cortisol) by the adrenal glands. [HPO:probinson, PMID:11443143]"
+C0001624,Tumors or cancer of the ADRENAL GLANDS.
+C0001625,"A pair of glands located at the cranial pole of each of the two KIDNEYS. Each adrenal gland is composed of two distinct endocrine tissues with separate embryonic origins, the ADRENAL CORTEX producing STEROIDS and the ADRENAL MEDULLA producing NEUROTRANSMITTERS."
+C0001627,"A group of inherited disorders of the ADRENAL GLANDS, caused by enzyme defects in the synthesis of cortisol (HYDROCORTISONE) and/or ALDOSTERONE leading to accumulation of precursors for ANDROGENS. Depending on the hormone imbalance, congenital adrenal hyperplasia can be classified as salt-wasting, hypertensive, virilizing, or feminizing. Defects in STEROID 21-HYDROXYLASE; STEROID 11-BETA-HYDROXYLASE; STEROID 17-ALPHA-HYDROXYLASE; 3-beta-hydroxysteroid dehydrogenase (3-HYDROXYSTEROID DEHYDROGENASES); TESTOSTERONE 5-ALPHA-REDUCTASE; or steroidogenic acute regulatory protein; among others, underlie these disorders."
+C0001629,"The inner portion of the adrenal gland. Derived from ECTODERM, adrenal medulla consists mainly of CHROMAFFIN CELLS that produces and stores a number of NEUROTRANSMITTERS, mainly adrenaline (EPINEPHRINE) and NOREPINEPHRINE. The activity of the adrenal medulla is regulated by the SYMPATHETIC NERVOUS SYSTEM."
+C0001630,"Neoplasm derived from displaced cells (rest cells) of the primordial ADRENAL GLANDS, generally in patients with CONGENITAL ADRENAL HYPERPLASIA. Adrenal rest tumors have been identified in TESTES; LIVER; and other tissues. They are dependent on ADRENOCORTICOTROPIN for growth and adrenal steroid secretion."
+C0001632,"Excision of one or both adrenal glands. (From Dorland, 28th ed)"
+C0001636,"The hydrochloride salt of the naturally occurring sympathomimetic amine with vasoconstricting, intraocular pressure-reducing, and bronchodilating activities. By stimulating vascular alpha-adrenergic receptors, epinephrine causes vasoconstriction, thereby increasing vascular resistance and blood pressure. When administered in the conjunctiva, this agent binds to alpha-adrenergic receptors in the iris sphincter muscle, resulting in vasoconstriction, a decrease in the production of aqueous humor, and a lowering of intraocular pressure. Through its beta1 receptor-stimulating actions, epinephrine increases the force and rate of myocardial contraction and relaxes bronchial smooth muscle, resulting in bronchodilation."
+C0001637,"Drugs that act on adrenergic receptors or affect the life cycle of adrenergic transmitters. Included here are adrenergic agonists and antagonists and agents that affect the synthesis, storage, uptake, metabolism, or release of adrenergic transmitters."
+C0001638,A subclass of alpha-adrenergic receptors that mediate contraction of SMOOTH MUSCLE in a variety of tissues such as ARTERIOLES; VEINS; and the UTERUS. They are usually found on postsynaptic membranes and signal through GQ-G11 G-PROTEINS.
+C0001639,"A subclass of alpha-adrenergic receptors found on both presynaptic and postsynaptic membranes where they signal through Gi-Go G-PROTEINS. While postsynaptic alpha-2 receptors play a traditional role in mediating the effects of ADRENERGIC AGONISTS, the subset of alpha-2 receptors found on presynaptic membranes signal the feedback inhibition of NEUROTRANSMITTER release."
+C0001640,Drugs that selectively bind to and activate alpha adrenergic receptors.
+C0001641,"drugs that bind to but do not activate alpha-adrenergic receptors thereby blocking the actions of endogenous or exogenous adrenergic agonists; adrenergic alpha-antagonists are used in the treatment of hypertension, vasospasm, peripheral vascular disease, shock, and pheochromocytoma."
+C0001642,"A subclass of beta-adrenergic receptors (RECEPTORS, ADRENERGIC, BETA). The adrenergic beta-1 receptors are equally sensitive to EPINEPHRINE and NOREPINEPHRINE and bind the agonist DOBUTAMINE and the antagonist METOPROLOL with high affinity. They are found in the HEART, juxtaglomerular cells, and in the central and peripheral nervous systems."
+C0001643,"A subclass of beta-adrenergic receptors (RECEPTORS, ADRENERGIC, BETA). The adrenergic beta-2 receptors are more sensitive to EPINEPHRINE than to NOREPINEPHRINE and have a high affinity for the agonist TERBUTALINE. They are widespread, with clinically important roles in SKELETAL MUSCLE; LIVER; and vascular, bronchial, gastrointestinal, and genitourinary SMOOTH MUSCLE."
+C0001644,Drugs that selectively bind to and activate beta-adrenergic receptors.
+C0001645,"Drugs that bind to but do not activate beta-adrenergic receptors thereby blocking the actions of beta-adrenergic agonists. Adrenergic beta-antagonists are used for treatment of hypertension, cardiac arrhythmias, angina pectoris, glaucoma, migraine headaches, and anxiety."
+C0001646,Nerve fibers liberating catecholamines at a synapse after an impulse.
+C0001648,Drugs that bind to and activate adrenergic receptors.
+C0001652,Pigment obtained by the oxidation of epinephrine.
+C0001655,pituitary hormone that stimulates the secretion of adrenal cortical steroids and induces growth of the adrenal cortex.
+C0001657,"An iron-sulfur protein which serves as an electron carrier in enzymatic steroid hydroxylation reactions in adrenal cortex mitochondria. The electron transport system which catalyzes this reaction consists of adrenodoxin reductase, NADP, adrenodoxin, and cytochrome P-450."
+C0001674,"The adhesion of gases, liquids, or dissolved solids onto a surface. It includes adsorptive phenomena of bacteria and viruses onto surfaces as well. ABSORPTION into the substance may follow but not necessarily."
+C0001675,"A person having attained full growth or maturity. Adults are of 19 through 44 years of age. For a person between 19 and 24 years of age, YOUNG ADULT is available."
+C0001683,"Declarations by patients, made in advance of a situation in which they may be incompetent to decide about their own care, stating their treatment preferences or authorizing a third party to make decisions for them. (Bioethics Thesaurus)"
+C0001688,"Used with drugs, chemicals, or biological agents in accepted dosage - or with physical agents or manufactured products in normal usage - when intended for diagnostic, therapeutic, prophylactic, or anesthetic purposes. It is used also for adverse effects or complications of diagnostic, therapeutic, prophylactic, anesthetic, surgical, or other procedures."
+C0001690,"Works about the act or practice of calling public attention to a product, service, need, etc., especially by paid announcements in newspapers, magazines, on radio, or on television. (Random House Unabridged Dictionary, 2d ed)"
+C0001692,"genus of mosquitoes; are vectors for many diseases including yellow fever, dengue, equine encephalomyelitis, and filariasis."
+C0001694,A photoprotein isolated from the bioluminescent jellyfish Aequorea. It emits visible light by an intramolecular reaction when a trace amount of calcium ion is added. The light-emitting moiety in the bioluminescence reaction is believed to be 2-amino-3-benzyl-5-(p-hydroxyphenyl)pyrazine (AF-350).
+C0001699,"gram negative, non motile, capsulated, gas producing rods found widely in nature and associated with urinary and respiratory infections in humans."
+C0001701,exercise designed to improve an individual's cardiovascular condition.
+C0001702,Life or metabolic reactions occurring in an environment containing oxygen.
+C0001703,"A genus of gram-positive cocci in the family AEROCOCCACEAE, occurring as airborne saprophytes."
+C0001705,"A genus of gram-negative, facultatively anaerobic, rod-shaped bacteria that occurs singly, in pairs, or in short chains. Its organisms are found in fresh water and sewage and are pathogenic to humans, frogs, and fish."
+C0001707,Spasmodic swallowing of air.
+C0001711,"Compressed gases or vapors in a container which, upon release of pressure and expansion through a valve, carry another substance from the container. They are used for cosmetics, household cleaners, and so on. Examples are BUTANES; CARBON DIOXIDE; FLUOROCARBONS; NITROGEN; and PROPANE. (McGraw-Hill Dictionary of Scientific and Technical Terms, 4th ed)"
+C0001712,suspension of fine solid or liquid particles in gas; a substance dispensed from a pressurized container; includes the container and process used to dispense the aerosol.
+C0001713,That branch of medicine dealing with the studies and effects of flight through the atmosphere or in space upon the human body and with the prevention or cure of physiological or psychological malfunctions arising from these effects. (from NASA Thesaurus)
+C0001714,"The sulfate salt form of polymyxin B, a mixture of the polypeptides polymyxins B1 and B2, both obtained from Bacillus polymyxa strains, with antimicrobial activity. Polymyxin B exerts its antimicrobial effect through its cationic detergent action on cell membranes. Specifically, this antibiotic binds to the negatively charged site in the lipopolysaccharide layer of the bacterial cell membrane via electrostatic affinity with the positively charged amino groups in the cyclic peptide portion. Subsequently, the fatty acid portion of polymyxin B dissolves in the hydrophobic region of the bacterial cell membrane. This results in an alteration in cell membrane structure, disruption of cell wall integrity and an increase in permeability for water and molecules. This will eventually lead to bacterial cell death."
+C0001721,The feeling-tone accompaniment of an idea or mental representation. It is the most direct psychic derivative of instinct and the psychic representative of the various bodily changes by means of which instincts manifest themselves.
+C0001723,"Disorders in which the essential feature is a severe disturbance in mood (depression, anxiety, elation, and excitement) accompanied by psychotic symptoms such as delusions, hallucinations, gross impairment in reality testing, etc."
+C0001726,Mood or emotional responses dissonant with or inappropriate to the behavior and/or stimulus.
+C0001727,"A complication of gastrojejunostomy (BILLROTH II PROCEDURE), a reconstructive GASTROENTEROSTOMY. It is caused by acute (complete) or chronic (intermittent) obstruction of the afferent jejunal loop due to HERNIA, intussusception, kinking, VOLVULUS, etc. It is characterized by PAIN and VOMITING of BILE-stained fluid."
+C0001728,Nerve structures through which impulses are conducted from a peripheral part toward a nerve center.
+C0001730,"Analogs of those substrates or compounds which bind naturally at the active sites of proteins, enzymes, antibodies, steroids, or physiological receptors. These analogs form a stable covalent bond at the binding site, thereby acting as inhibitors of the proteins or steroids."
+C0001732,"Country located north and west of Pakistan, and east of Iran. The capital is Kabul."
+C0001733,A deficiency or absence of FIBRINOGEN in the blood.
+C0001734,"Furano-furano-benzopyrans that are produced by ASPERGILLUS from STERIGMATOCYSTIN. They are structurally related to COUMARINS and easily oxidized to an epoxide form to become ALKYLATING AGENTS. Members of the group include AFLATOXIN B1; aflatoxin B2, aflatoxin G1, aflatoxin G2; AFLATOXIN M1; and aflatoxin M2."
+C0001737,"second largest continent, after Asia, covering about one-fifth of the total land surface of the Earth; the continent is bounded on the west by the Atlantic Ocean, on the north by the Mediterranean Sea, on the east by the Red Sea and the Indian Ocean, and on the south by the mingling waters of the Atlantic and Indian oceans."
+C0001738,"All of Africa except Northern Africa (AFRICA, NORTHERN)."
+C0001740,The geographical area of Africa comprising CAMEROON; CENTRAL AFRICAN REPUBLIC; CHAD; CONGO; EQUATORIAL GUINEA; GABON; and DEMOCRATIC REPUBLIC OF THE CONGO.
+C0001741,"The geographical area of Africa comprising BURUNDI, DJIBOUTI, ERITREA, ETHIOPIA, KENYA, RWANDA, SOMALIA, SOUTH SUDAN, SUDAN, TANZANIA, and UGANDA."
+C0001745,The geographical area of Africa comprising ALGERIA; EGYPT; LIBYA; MOROCCO and TUNISIA. It includes also the vast deserts and oases of the Sahara. It is often referred to as North Africa or the Maghreb.
+C0001746,The geographical area of Africa comprising ANGOLA; BOTSWANA; LESOTHO; MALAWI; MOZAMBIQUE; NAMIBIA; SOUTH AFRICA; SWAZILAND; ZAMBIA; and ZIMBABWE.
+C0001747,"The geographical area of Africa comprising BENIN; BURKINA FASO; CAPO VERDE, COTE D'IVOIRE; GAMBIA; GHANA; GUINEA; GUINEA-BISSAU; LIBERIA; MALI; MAURITANIA; NIGER; NIGERIA; SENEGAL; SIERRA LEONE; and TOGO."
+C0001748,"An insect-borne reovirus infection of horses, mules and donkeys in Africa and the Middle East; characterized by pulmonary edema, cardiac involvement, and edema of the head and neck."
+C0001749,"A species of ORBIVIRUS that causes disease in horses, mules, and donkeys. Via its principal vector CULICOIDES, it can also infect dogs, elephants, camels, cattle, sheep, goats, and, in special circumstances, humans."
+C0001752,"A sometimes fatal ASFIVIRUS infection of pigs, characterized by fever, cough, diarrhea, hemorrhagic lymph nodes, and edema of the gallbladder. It is transmitted between domestic swine by direct contact, ingestion of infected meat, or fomites, or mechanically by biting flies or soft ticks (genus Ornithodoros)."
+C0001753,"The lone species of the genus Asfivirus. It infects domestic and wild pigs, warthogs, and bushpigs. Disease is endemic in domestic swine in many African countries and Sardinia. Soft ticks of the genus Ornithodoros are also infected and act as vectors."
+C0001757,"A West Germanic language, evolved from Dutch, spoken in South Africa, Namibia and, to a lesser extent, Botswana and Zimbabwe."
+C0001758,"The care and treatment of a convalescent patient, especially that of a patient after surgery."
+C0001762,Continuation of visual impression after cessation of stimuli causing the original image.
+C0001768,An immunologic deficiency state characterized by an extremely low level of generally all classes of gamma-globulin in the blood.
+C0001771,"A complex sulfated polymer of galactose units, extracted from Gelidium cartilagineum, Gracilaria confervoides, and related red algae. It is used as a gel in the preparation of solid culture media for microorganisms, as a bulk laxative, in making emulsions, and as a supporting medium for immunodiffusion and immunoelectrophoresis."
+C0001774,extensive order of basidiomycetous fungi whose fruiting bodies are commonly call mushrooms.
+C0001775,"A basidiomycetous fungal genus of the family Agaricaceae, order Agaricales, which includes the field mushroom (A. campestris) and the commercial mushroom (A. bisporus)."
+C0001779,Age after birth.
+C0001780,Establishment of the age of an individual by examination of their skeletal structure.
+C0001781,A means of identifying the age of an animal or human through tooth examination.
+C0001782,The frequency of different ages or age groups in a given population. The distribution may refer to either how many or what proportion of the group. The population is usually patients with a specific disease but the concept is not restricted to humans and is not restricted to medicine.
+C0001783,"Age as a constituent element or influence contributing to the production of a result. It may be applicable to the cause or the effect of a circumstance. It is used with human or animal concepts but should be differentiated from AGING, a physiological process, and TIME FACTORS which refers only to the passage of time."
+C0001792,"A person 65 through 79 years of age. For a person older than 79 years, AGED, 80 AND OVER is available."
+C0001795,Persons 80 years of age and older.
+C0001796,An independent Federal agency established in 1961 as the focal point for economic matters affecting U.S. relations with developing countries.
+C0001801,The clumping together of suspended material resulting from the action of AGGLUTININS.
+C0001802,"Tests that are dependent on the clumping of cells, microorganisms, or particles when mixed with specific antiserum. (From Stedman, 26th ed)"
+C0001804,A substance that makes particles (such as bacteria or cells) stick together to form a clump or a mass.
+C0001807,"Behavior which may be manifested by destructive and attacking action which is verbal or physical, by covert attitudes of hostility or by obstructionism."
+C0001811,The gradual irreversible changes in structure and function of an organism that occur as a result of the passage of time.
+C0001814,"Decarboxylated arginine, isolated from several plant and animal sources, e.g., pollen, ergot, herring sperm, octopus muscle."
+C0001815,"A de novo myeloproliferation arising from an abnormal stem cell. It is characterized by the replacement of bone marrow by fibrous tissue, a process that is mediated by CYTOKINES arising from the abnormal clone."
+C0001816,"Loss of the ability to comprehend the meaning or recognize the importance of various forms of stimulation that cannot be attributed to impairment of a primary sensory modality. Tactile agnosia is characterized by an inability to perceive the shape and nature of an object by touch alone, despite unimpaired sensation to light touch, position, and other primary sensory modalities."
+C0001817,Any behavior associated with conflict between two individuals.
+C0001818,"Obsessive, persistent, intense fear of open places."
+C0001819,"An anxiety disorder characterized by agoraphobia in the absence of a history of panic attacks; the individual fears incapacitation or humiliation in open, public places or situations due to panic-like symptoms rather than a full-blown panic attack."
+C0001824,A decrease in the number of GRANULOCYTES; (BASOPHILS; EOSINOPHILS; and NEUTROPHILS).
+C0001825,"Loss or impairment of the ability to write (letters, syllables, words, or phrases) due to an injury to a specific cerebral area or occasionally due to emotional factors. This condition rarely occurs in isolation, and often accompanies APHASIA. (From Adams et al., Principles of Neurology, 6th ed, p485; APA, Thesaurus of Psychological Index Terms, 1994)"
+C0001828,"Diseases in persons engaged in cultivating and tilling soil, growing plants, harvesting crops, raising livestock, or otherwise engaged in husbandry and farming. The diseases are not restricted to farmers in the sense of those who perform conventional farm chores: the heading applies also to those engaged in the individual activities named above, as in those only gathering harvest or in those only dusting crops."
+C0001829,"The science, art or practice of cultivating soil, producing crops, and raising livestock."
+C0001830,"genus of gram negative, aerobic, rod shaped bacteria that produce nodules on the roots of leguminous plants; common soil inhabitants."
+C0001843,"Financial assistance provided by the government to indigent families with dependent children who meet certain requirements as defined by the Social Security Act, Title IV, in the U.S."
+C0001849,"A neurologic condition associated with the ACQUIRED IMMUNODEFICIENCY SYNDROME and characterized by impaired concentration and memory, slowness of hand movements, ATAXIA, incontinence, apathy, and gait difficulties associated with HIV-1 viral infection of the central nervous system. Pathologic examination of the brain reveals white matter rarefaction, perivascular infiltrates of lymphocytes, foamy macrophages, and multinucleated giant cells. (From Adams et al., Principles of Neurology, 6th ed, pp760-1; N Engl J Med, 1995 Apr 6;332(14):934-40)"
+C0001852,Immunologic tests for identification of HIV (HTLV-III/LAV) antibodies. They include assays for HIV SEROPOSITIVITY and HIV SERONEGATIVITY that have been developed for screening persons carrying the viral antibody from patients with overt symptoms of AIDS or AIDS-RELATED COMPLEX.
+C0001857,"A prodromal phase of infection with the human immunodeficiency virus (HIV). Laboratory criteria separating AIDS-related complex (ARC) from AIDS include elevated or hyperactive B-cell humoral immune responses, compared to depressed or normal antibody reactivity in AIDS; follicular or mixed hyperplasia in ARC lymph nodes, leading to lymphocyte degeneration and depletion more typical of AIDS; evolving succession of histopathological lesions such as localization of Kaposi's sarcoma, signaling the transition to the full-blown AIDS."
+C0001860,Spontaneous autoamputation of the fourth or fifth toe.
+C0001861,"The mixture of gases present in the earth's atmosphere consisting of oxygen, nitrogen, carbon dioxide, and small amounts of other gases."
+C0001864,"The maintenance of certain aspects of the environment within a defined space to facilitate the function of that space; aspects controlled include air temperature and motion, radiant heat level, moisture, and concentration of pollutants such as dust, microorganisms, and gases. (McGraw-Hill Dictionary of Scientific and Technical Terms, 4th ed)"
+C0001866,The dissociation of molecules in the air into positive and negative ions under the influence of an electric field.
+C0001867,"The presence of bacteria, viruses, and fungi in the air. This term is not restricted to pathogenic organisms."
+C0001868,The motion of air currents.
