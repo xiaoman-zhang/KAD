@@ -12,6 +12,8 @@ To install Python dependencies:
 pip install -r requirements.txt
 ```
 
+**Note that the complete data file and model training logs/checkpoints can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz).**
+
 ## Data
 
 #### **Training Dataset**   
@@ -48,19 +50,12 @@ The main data (CheXpert data) supporting the results of this study are available
 
 The CheXpert **test** dataset has recently been made public, and can be found by following the steps in the [cheXpert-test-set-labels](https://github.com/rajpurkarlab/cheXpert-test-set-labels) repository.
 
-#### 
-
-## Model Checkpoints
-
-**Later**
-
-
 
 ## Pre-training
 
-**1. Text Encoder**
+**1. Medical knowledge enhanced text encoder**
 
-The UMLS knowledge base file used during pretraining is in  `./A2_KEBERT/data`
+The UMLS knowledge base file used during pretraining is in  `./A2_KEBER/data`
 
 run the following command to perform Med-KEBERT pretraining
 
@@ -77,9 +72,10 @@ run the following command to perform Med-KEBERT pretraining
 
 `cd ./A3_CLIP`
 
-`python main.py --use_entity_features --image_encoder_name resnet  --bert_model_name microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext   --bert_pretrained --output_dir --aws_output_dir`
+`python main.py --use_entity_features --image_encoder_name resnet  --bert_model_name microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext --freeze_bert  --bert_pretrained --output_dir --aws_output_dir`
 
 ###### Arguments
+- `--freeze_bert` whether freeze bert 
 
 - `--bert_pretrained` pertained Med-KEBERT model path
 
@@ -88,7 +84,6 @@ run the following command to perform Med-KEBERT pretraining
 - `--aws_output_dir` directory to save checkpoints
 
   
-
 ## Zero-shot Inference
 
 `python test_chestxray14.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --checkpoint` 
@@ -106,3 +101,9 @@ run the following command to perform Med-KEBERT pretraining
 - `--checkpoint` directory of  pre-trained model's checkpoints
 
   
+
+## Model Checkpoints
+
+We provide the models' training logs and checkpoints, which can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz). 
+
+
