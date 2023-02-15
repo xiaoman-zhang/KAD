@@ -211,10 +211,7 @@ def compute_AUCs(gt, pred, n_class=193):
     gt_np = gt 
     pred_np = pred 
     for i in range(n_class):
-        try:
             AUROCs.append(roc_auc_score(gt_np[:, i], pred_np[:, i]))
-        except:
-            AUROCs.append(1)
     mean_auc = np.mean(np.array(AUROCs[1:]))
     AUROCs.append(mean_auc)
     return AUROCs
