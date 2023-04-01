@@ -94,7 +94,7 @@ def train(model, image_encoder, text_encoder, tokenizer, data_loader, optimizer,
 
         data_time_m.update(time.time() - end)
         optimizer.zero_grad()
-        text_list = [ 'pleural effusion', 'opacity', 'pneumothorax', 'edema', 'atelectasis',  'tube', 'consolidation','enlarged cardiomediastinum','tip', 'pneumonia','line','cardiomegaly', 'fracture','calcification',
+        text_list = ['normal', 'pleural effusion', 'opacity', 'pneumothorax', 'edema', 'atelectasis',  'tube', 'consolidation','enlarged cardiomediastinum','tip', 'pneumonia','line','cardiomegaly', 'fracture','calcification',
             'device','engorgement',  'nodule', 'wire',  'pacemaker', 'pleural thicken', 'marking', 'scar', 'hyperinflate', 'blunt',  'collapse', 'emphysema', 'aerate', 'mass','infiltration', 'obscure', 'deformity', 'hernia',
             'drainage', 'distention', 'shift', 'stent', 'lesion', 'hardware', 'dilation',  'aspiration']
         # text_list = ["atelectasis","cardiomegaly","consolidation","edema","enlarged cardiomediastinum","fracture","lung lesion","lung opacity","no finding","pleural effusion","pleural other","pneumonia","pneumothorax",'support devices']
@@ -111,9 +111,7 @@ def train(model, image_encoder, text_encoder, tokenizer, data_loader, optimizer,
             loss_ce = loss_ce_image + loss_ce_text
         else:
             loss_ce = loss_ce_image
-        # torch.Size([64, 75, 2]) torch.Size([64, 75, 2]) torch.Size([64, 75])
-        # print(pred_class_text.shape,pred_class_image.shape,label.shape)
-
+       
         loss_clip = clip_loss(image_features_pool,entity_features)
         loss = loss_ce * args.loss_ratio + loss_clip
         loss.backward()
