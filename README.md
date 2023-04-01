@@ -12,7 +12,7 @@ To install Python dependencies:
 pip install -r requirements.txt
 ```
 
-**Note that the complete data file and model training logs/checkpoints can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz).**
+**Note that the complete data file and model training logs/checkpoints can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz). and google drive with link: https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link.**
 
 ## Data
 
@@ -53,7 +53,7 @@ The CheXpert **test** dataset has recently been made public, and can be found by
 
 ## Pre-training
 
-**1. Medical knowledge enhanced text encoder**
+**1. Knowledge encoder**
 
 The UMLS knowledge base file used during pretraining is in  `./A2_KEBER/data`
 
@@ -105,5 +105,5 @@ run the following command to perform Med-KEBERT pretraining
 ## Model Checkpoints
 
 We provide the models' training logs and checkpoints, which can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz). 
-
+and from google drive with link: https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link.
 
