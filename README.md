@@ -105,7 +105,7 @@ run the following command to perform Med-KEBERT pretraining
 
 ## Model Checkpoints
 
-We provide the models' training logs and checkpoints, which can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz) or from google drive with link: https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link.
+We provide the models' checkpoints, which can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz) or from google drive with link: https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link.
 
 
 If you have any question, please feel free to contact.
