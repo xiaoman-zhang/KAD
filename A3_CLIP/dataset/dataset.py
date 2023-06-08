@@ -54,7 +54,7 @@ class MIMIC_Dataset(Dataset):
 
         normalize = transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
         self.transform = transforms.Compose([                        
-                transforms.RandomResizedCrop(224,scale=(0.2, 1.0), interpolation=Image.BICUBIC),
+                transforms.RandomResizedCrop(512,scale=(0.2, 1.0), interpolation=Image.BICUBIC),
                 transforms.RandomHorizontalFlip(),
                 RandomAugment(2,7,isPIL=True,augs=['Identity','AutoContrast','Equalize','Brightness','Sharpness',
                                                 'ShearX', 'ShearY', 'TranslateX', 'TranslateY', 'Rotate']),     
@@ -143,7 +143,7 @@ class Chestxray14_Dataset(Dataset):
 
         normalize = transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
         self.transform = transforms.Compose([                        
-                transforms.Resize(224, interpolation=Image.BICUBIC),
+                transforms.Resize(512, interpolation=Image.BICUBIC),
                 transforms.ToTensor(),
                 normalize,
             ])

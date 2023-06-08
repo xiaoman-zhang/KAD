@@ -56,7 +56,7 @@ The CheXpert **test** dataset has recently been made public, and can be found by
 
 **1. Knowledge encoder**
 
-The UMLS knowledge base file used during pretraining is in  `./A2_KEBER/data`
+The UMLS knowledge base file used during pretraining is in  `./A2_KEBERT/data`
 
 run the following command to perform Med-KEBERT pretraining
 
