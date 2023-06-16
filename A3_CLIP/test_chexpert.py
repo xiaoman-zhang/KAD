@@ -52,7 +52,7 @@ def main(args, config):
 
     #### Dataset #### 
     print("Creating dataset")
-    test_dataset_chexpert = CheXpert_Dataset_test(config['chexpert_test_file'])
+    test_dataset_chexpert = CheXpert_Dataset_test(config['chexpert_test_file'],config['img_res'])
     test_dataloader_chexpert =DataLoader(
             test_dataset_chexpert,
             batch_size=config['batch_size'],

@@ -15,7 +15,7 @@ padchest_all_test_file: '../A1_DATA/PadChest/Physician_label193_all.csv'
 
 mrsty_file: '../A1_DATA/UMLS/MRSTY.csv'
 
-image_res: 224
+image_res: 512
 batch_size: 64
 test_batch_size: 64
 num_classes: 40

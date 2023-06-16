@@ -35,7 +35,7 @@ def open_jpg(url):
     return img
 
 class MIMIC_Dataset(Dataset):
-    def __init__(self, umls_json_path, radgraph_json_path, csv_path, sty_path):
+    def __init__(self, umls_json_path, radgraph_json_path, csv_path, sty_path,img_res):
         self.umls_json_info = json.load(open(umls_json_path,'r'))
         self.radgraph_json_info = json.load(open(radgraph_json_path,'r'))
 
@@ -54,7 +54,7 @@ class MIMIC_Dataset(Dataset):
 
         normalize = transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
         self.transform = transforms.Compose([                        
-                transforms.RandomResizedCrop(512,scale=(0.2, 1.0), interpolation=Image.BICUBIC),
+                transforms.RandomResizedCrop(img_res,scale=(0.2, 1.0), interpolation=Image.BICUBIC),
                 transforms.RandomHorizontalFlip(),
                 RandomAugment(2,7,isPIL=True,augs=['Identity','AutoContrast','Equalize','Brightness','Sharpness',
                                                 'ShearX', 'ShearY', 'TranslateX', 'TranslateY', 'Rotate']),     
@@ -136,7 +136,7 @@ class MIMIC_Dataset(Dataset):
     
 
 class Chestxray14_Dataset(Dataset):
-    def __init__(self, csv_path):
+    def __init__(self, csv_path,img_res):
         data_info = pd.read_csv(csv_path)
         self.img_path_list = np.asarray(data_info.iloc[:,0])
         self.class_list = np.asarray(data_info.iloc[:,3:])
@@ -169,7 +169,7 @@ class CheXpert_Dataset(Dataset):
 
         normalize = transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
         self.transform = transforms.Compose([                        
-                transforms.Resize([224,224], interpolation=Image.BICUBIC),
+                transforms.Resize([img_res,img_res], interpolation=Image.BICUBIC),
                 transforms.ToTensor(),
                 normalize,
             ])  

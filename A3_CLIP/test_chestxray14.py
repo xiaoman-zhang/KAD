@@ -54,7 +54,7 @@ def main(args, config):
 
     #### Dataset #### 
     print("Creating dataset")
-    test_dataset = Chestxray14_Dataset(config['chestxray_test_file'])
+    test_dataset = Chestxray14_Dataset(config['chestxray_test_file'],config['img_res'])
     test_dataloader =DataLoader(
             test_dataset,
             batch_size=config['batch_size'],

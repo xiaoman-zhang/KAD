@@ -36,14 +36,14 @@ def open_jpg(url):
     return img
 
 class Chestxray14_Dataset(Dataset):
-    def __init__(self, csv_path):
+    def __init__(self, csv_path,img_res):
         data_info = pd.read_csv(csv_path)
         self.img_path_list = np.asarray(data_info.iloc[:,0])
         self.class_list = np.asarray(data_info.iloc[:,3:])
 
         normalize = transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
         self.transform = transforms.Compose([                        
-                transforms.Resize(512, interpolation=Image.BICUBIC),
+                transforms.Resize(img_res, interpolation=Image.BICUBIC),
                 transforms.ToTensor(),
                 normalize,
             ])
@@ -64,14 +64,14 @@ class Chestxray14_Dataset(Dataset):
 
 
 class CheXpert_Dataset(Dataset):
-    def __init__(self, csv_path):
+    def __init__(self, csv_path,img_res):
         data_info = pd.read_csv(csv_path)
         self.img_path_list = np.asarray(data_info.iloc[:,0])
         self.class_list = np.asarray(data_info.iloc[:,[13,7,11,10,15]])
 
         normalize = transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
         self.transform = transforms.Compose([                        
-                transforms.Resize([224,224], interpolation=Image.BICUBIC),
+                transforms.Resize([img_res,img_res], interpolation=Image.BICUBIC),
                 transforms.ToTensor(),
                 normalize,
             ])  
@@ -92,13 +92,13 @@ class CheXpert_Dataset(Dataset):
 
 
 class Padchest_Dataset(Dataset):
-    def __init__(self, csv_path):
+    def __init__(self, csv_path,img_res):
         data_info = pd.read_csv(csv_path)
         self.img_path_list = np.asarray(data_info.iloc[:,0])
         self.class_list = np.asarray(data_info.iloc[:,3:])
         normalize = transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
         self.transform = transforms.Compose([                        
-                transforms.Resize([224,224], interpolation=Image.BICUBIC),
+                transforms.Resize([img_res,img_res], interpolation=Image.BICUBIC),
                 transforms.ToTensor(),
                 normalize,
             ])  

@@ -91,11 +91,11 @@ run the following command to perform Med-KEBERT pretraining
   
 ## Zero-shot Inference
 
-`python test_chestxray14.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --checkpoint` 
+`python test_chestxray14.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --checkpoint --img_res ` 
 
-`python test_chexpert.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --checkpoint` 
+`python test_chexpert.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --img_res ` 
 
-`python test_padchest.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --checkpoint` 
+`python test_padchest.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --checkpoint --img_res ` 
 
 ###### Arguments
 
@@ -105,11 +105,13 @@ run the following command to perform Med-KEBERT pretraining
 
 - `--checkpoint` directory of  pre-trained model's checkpoints
 
-  
+- `--img_res` the input image resolution, 512 for KAD-512 model and 1024 for KAD-1024
+
 
 ## Model Checkpoints
 
-We provide the models' checkpoints, which can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz) or from google drive with link: https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link.
+We provide the models' checkpoints for KAD-512 and KAD-1024, which can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz) or from google drive with link: https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link.
+
 
 
 If you have any question, please feel free to contact.

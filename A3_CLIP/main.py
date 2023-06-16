@@ -58,7 +58,7 @@ def main(args, config):
 
     #### Dataset #### 
     print("Creating dataset")
-    train_dataset = MIMIC_Dataset(config['train_entity_file'],config['train_entity_graph_file'], config['train_fg_query_file'], config['mrsty_file'])
+    train_dataset = MIMIC_Dataset(config['train_entity_file'],config['train_entity_graph_file'], config['train_fg_query_file'], config['mrsty_file'],config['img_res'])
     train_dataloader = DataLoader(
             train_dataset,
             batch_size=config['batch_size'],
@@ -72,7 +72,7 @@ def main(args, config):
     train_dataloader.num_samples = len(train_dataset)
     train_dataloader.num_batches = len(train_dataloader) 
 
-    val_dataset = Chestxray14_Dataset(config['chestxray_valid_file'])
+    val_dataset = Chestxray14_Dataset(config['chestxray_valid_file'],config['img_res'])
     val_dataloader =DataLoader(
             val_dataset,
             batch_size=config['batch_size'],
@@ -86,7 +86,7 @@ def main(args, config):
     val_dataloader.num_samples = len(val_dataset)
     val_dataloader.num_batches = len(val_dataloader)     
 
-    test_dataset = Chestxray14_Dataset(config['chestxray_test_file'])
+    test_dataset = Chestxray14_Dataset(config['chestxray_test_file'],config['img_res'])
     test_dataloader =DataLoader(
             test_dataset,
             batch_size=config['batch_size'],
@@ -100,7 +100,7 @@ def main(args, config):
     test_dataloader.num_samples = len(test_dataset)
     test_dataloader.num_batches = len(test_dataloader)
 
-    test_dataset_chexpert = CheXpert_Dataset(config['chexpert_valid_file'])
+    test_dataset_chexpert = CheXpert_Dataset(config['chexpert_valid_file'],config['img_res'])
     test_dataloader_chexpert =DataLoader(
             test_dataset_chexpert,
             batch_size=config['batch_size'],
