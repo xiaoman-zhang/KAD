@@ -1,5 +1,5 @@
 # KAD
-The official codes for [**Knowledge-enhanced Visual-Language Pre-training on Chest Radiology Images**](https://arxiv.org/pdf/2302.14042.pdf)  
+The official codes for [**Knowledge-enhanced Visual-Language Pre-training on Chest Radiology Images**](https://arxiv.org/pdf/2302.14042.pdf).
 
 
 ## Dependencies
