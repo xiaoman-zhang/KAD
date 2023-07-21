@@ -16,7 +16,7 @@ To install Python dependencies:
 pip install -r requirements.txt
 ```
 
-**Note that the complete data file and model training logs/checkpoints can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz). and google drive with link: https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link.**
+**Note that the complete data file and model training logs/checkpoints can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz). and google drive with link: [https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link](https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=sharing).**
 
 
 ## Data
@@ -110,7 +110,7 @@ run the following command to perform Med-KEBERT pretraining
 
 ## Model Checkpoints
 
-We provide the models' checkpoints for KAD-512 and KAD-1024, which can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz) or from google drive with link: https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link.
+We provide the models' checkpoints for KAD-512 and KAD-1024, which can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz) or from google drive with link: [https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link](https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=sharing).
 
 
 
