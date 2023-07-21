@@ -182,7 +182,7 @@ class TQN_Model(nn.Module):
             if module.padding_idx is not None:
                 module.weight.data[module.padding_idx].zero_()
     
-    def forward(self, image_features, text_features):
+    def forward(self, image_features, text_features, return_atten = False):
         #image_features (batch_size,patch_num,dim)
         #text_features (query_num,dim)
         batch_size = image_features.shape[0]
@@ -190,11 +190,48 @@ class TQN_Model(nn.Module):
         text_features = text_features.unsqueeze(1).repeat(1, batch_size, 1)
         image_features = self.decoder_norm(image_features)
         text_features = self.decoder_norm(text_features)
-        features = self.decoder(text_features, image_features, 
+        features,atten_map = self.decoder(text_features, image_features, 
                 memory_key_padding_mask=None, pos=None, query_pos=None) 
         features = self.dropout_feas(features).transpose(0,1)  #b,embed_dim
         out = self.mlp_head(features)  #(batch_size, query_num)
-        return out
+        if return_atten:
+            return out, atten_map
+        else:
+            return out
+
+
+class ModelRes512(nn.Module):
+    def __init__(self, res_base_model):
+        super(ModelRes512, self).__init__()
+        self.resnet_dict = {"resnet50": models.resnet50(pretrained=True)}
+                            # "resnet50": models.resnet50(pretrained=True)}
+        self.resnet = self._get_res_basemodel(res_base_model)
+        num_ftrs = int(self.resnet.fc.in_features)
+        self.res_features = nn.Sequential(*list(self.resnet.children())[:-2])
+        self.res_l1 = nn.Linear(num_ftrs, num_ftrs)
+        self.res_l2 = nn.Linear(num_ftrs, 768)
+
+    def _get_res_basemodel(self, res_model_name):
+        try:
+            res_model = self.resnet_dict[res_model_name]
+            print("Image feature extractor:", res_model_name)
+            return res_model
+        except:
+            raise ("Invalid model name. Check the config file and pass one of: resnet18 or resnet50")
+
+    def forward(self, img):
+        #return (batchsize, patch_num, dim)
+        batch_size = img.shape[0]
+        res_fea = self.res_features(img)
+
+        res_fea = rearrange(res_fea,'b d n1 n2 -> b (n1 n2) d')
+        h = rearrange(res_fea,'b n d -> (b n) d')
+        x = self.res_l1(h)
+        x = F.relu(x)
+        x = self.res_l2(x)
+        out_emb = rearrange(x,'(b n) d -> b n d',b=batch_size)
+        out_pool = torch.mean(out_emb,dim=1)
+        return out_emb,out_pool
 
 
 if __name__ == "__main__":

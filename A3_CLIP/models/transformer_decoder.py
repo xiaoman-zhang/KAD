@@ -41,7 +41,7 @@ class TransformerDecoder(nn.Module):
 
         if self.return_intermediate:
             return torch.stack(intermediate)
-        return output
+        return output,ws
 
 
 class TransformerDecoderLayer(nn.Module):
