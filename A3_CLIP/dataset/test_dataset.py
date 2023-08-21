@@ -20,19 +20,9 @@ from PIL import Image
 import cv2
 
 from dataset.randaugment import RandomAugment
-from io import BytesIO
-from petrel_client.client import Client
-from petrel_client.utils.data import DataLoader
 
 def open_jpg(url):
-    conf_path = '~/petreloss.conf'
-    client = Client(conf_path) # client搭建了和ceph通信的通道
-    img_bytes = client.get(url)
-    assert(img_bytes is not None)
-    img_mem_view = memoryview(img_bytes)
-    img_array = np.frombuffer(img_mem_view, np.uint8)
-    img = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
-    img = Image.fromarray(img)
+    img = Image.opem(url)
     return img
 
 class Chestxray14_Dataset(Dataset):
@@ -133,30 +123,3 @@ class Padchest_Dataset(Dataset):
     def __len__(self):
         return len(self.img_path_list)
 
-
-class RSNA_Dataset(Dataset):
-    def __init__(self, csv_path):
-        data_info = pd.read_csv(csv_path)
-        self.img_path_list = np.asarray(data_info.iloc[:,1])
-        self.class_list = np.asarray(data_info.iloc[:,[3]])
-
-        normalize = transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
-        self.transform = transforms.Compose([                        
-                transforms.Resize([224,224], interpolation=Image.BICUBIC),
-                transforms.ToTensor(),
-                normalize,
-            ])  
-    
-    def __getitem__(self, index):
-        img_path = self.img_path_list[index]
-        class_label = self.class_list[index] 
-        img = open_jpg(img_path).convert('RGB')   
-        image = self.transform(img)
-        return {
-            "img_path": img_path,
-            "image": image,
-            "label": class_label
-            }
-    
-    def __len__(self):
-        return len(self.img_path_list)

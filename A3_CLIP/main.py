@@ -33,13 +33,6 @@ from engine.train_fg import train,valid_on_cheXpert,valid_on_chestxray14
 from models.clip_tqn import CLP_clinical,ModelRes,ModelDense,TQN_Model
 from dataset.dataset import MIMIC_Dataset,Chestxray14_Dataset,CheXpert_Dataset
 
-from io import BytesIO
-from petrel_client.client import Client
-
-conf_path = '~/petreloss.conf'
-client = Client(conf_path) 
-
-
 def main(args, config):
     device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print("Total CUDA devices: ", torch.cuda.device_count()) 
@@ -123,8 +116,7 @@ def main(args, config):
     text_encoder = CLP_clinical(bert_model_name=args.bert_model_name).to(device=device)
 
     if args.bert_pretrained:
-        with BytesIO(client.get(args.bert_pretrained)) as buffer:
-            checkpoint = torch.load(buffer, map_location='cpu')
+        checkpoint = torch.load(args.bert_pretrained, map_location='cpu')
         state_dict = checkpoint["state_dict"]
         text_encoder.load_state_dict(state_dict)
         print('Load pretrained bert success from: ',args.bert_pretrained)
@@ -202,11 +194,8 @@ def main(args, config):
                 'config': config,
                 'epoch': epoch,
             }
+            torch.save(save_obj, os.path.join(args.aws_output_dir, f"best_valid_chexpert.pt"))
 
-            with BytesIO() as buffer:
-                torch.save(save_obj, buffer)
-                client.put(os.path.join(args.aws_output_dir, f"best_valid_chexpert.pt"),buffer.getvalue())
-        
         if best_val_auc < val_auc:
             with open(os.path.join(args.output_dir, "log.txt"),"a") as f:
                 f.write("Save best valid model.\n")
@@ -221,9 +210,7 @@ def main(args, config):
                 'epoch': epoch,
             }
 
-            with BytesIO() as buffer:
-                torch.save(save_obj, buffer)
-                client.put(os.path.join(args.aws_output_dir, f"best_valid.pt"),buffer.getvalue())
+            torch.save(save_obj, os.path.join(args.aws_output_dir, f"best_valid.pt"))
 
             test_loss, test_auc, test_metrics = valid_on_chestxray14(model, image_encoder, text_encoder, tokenizer, test_dataloader,epoch,device,args,config,writer)
             writer.add_scalar('loss/test_loss_epoch', test_loss, epoch)
@@ -258,9 +245,7 @@ def main(args, config):
                 'epoch': epoch,
             }
 
-            with BytesIO() as buffer:
-                torch.save(save_obj, buffer)
-                client.put(os.path.join(args.aws_output_dir, f"checkpoint_state.pt"),buffer.getvalue())
+            torch.save(save_obj, os.path.join(args.aws_output_dir, f"checkpoint_state.pt"))
 
     total_time = time.time() - start_time
     total_time_str = str(datetime.timedelta(seconds=int(total_time)))

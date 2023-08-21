@@ -32,13 +32,6 @@ from models.clip_tqn import CLP_clinical,ModelRes,ModelDense,TQN_Model
 from models.vit import ModelViT
 from dataset.test_dataset import Chestxray14_Dataset
 
-from io import BytesIO
-from petrel_client.client import Client
-
-conf_path = '~/petreloss.conf'
-client = Client(conf_path) 
-
-
 
 def main(args, config):
     device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -79,8 +72,7 @@ def main(args, config):
     text_encoder = CLP_clinical(bert_model_name=args.bert_model_name).to(device=device)
 
     if args.bert_pretrained:
-        with BytesIO(client.get(args.bert_pretrained)) as buffer:
-            checkpoint = torch.load(buffer, map_location='cpu')
+        checkpoint = torch.load(args.bert_pretrained), map_location='cpu')
         state_dict = checkpoint["state_dict"]
         text_encoder.load_state_dict(state_dict)
         print('Load pretrained bert success from: ',args.bert_pretrained)
@@ -89,8 +81,7 @@ def main(args, config):
                 param.requires_grad = False
     model = TQN_Model().to(device) 
 
-    with BytesIO(client.get(args.checkpoint)) as buffer:
-        checkpoint = torch.load(buffer, map_location='cpu')
+    checkpoint = torch.load(args.checkpoint, map_location='cpu')
     image_state_dict = checkpoint['image_encoder']     
     image_encoder.load_state_dict(image_state_dict)    
     text_state_dict =  checkpoint['text_encoder']     
