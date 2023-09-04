@@ -112,18 +112,19 @@ run the following command to perform Med-KEBERT pretraining
 
 We provide the models' checkpoints for KAD-512 and KAD-1024, which can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz) or from google drive with link: [https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link](https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=sharing).
 
-## Reference
+## Citation
+If you use this code for your research or project, please cite:
 
-`@article{zhang2023knowledge,
-  title={Knowledge-enhanced visual-language pre-training on chest radiology images},
-  author={Zhang, Xiaoman and Wu, Chaoyi and Zhang, Ya and Xie, Weidi and Wang, Yanfeng},
-  journal={Nature Communications},
-  volume={14},
-  number={1},
-  pages={4542},
-  year={2023},
-  publisher={Nature Publishing Group UK London}
-}`
+    @article{zhang2023knowledge,
+      title={Knowledge-enhanced visual-language pre-training on chest radiology images},
+      author={Zhang, Xiaoman and Wu, Chaoyi and Zhang, Ya and Xie, Weidi and Wang, Yanfeng},
+      journal={Nature Communications},
+      volume={14},
+      number={1},
+      pages={4542},
+      year={2023},
+      publisher={Nature Publishing Group UK London}
+    }
 
 If you have any question, please feel free to contact.
 
