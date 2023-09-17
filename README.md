@@ -1,5 +1,5 @@
 # KAD
-The official codes for [**Knowledge-enhanced Visual-Language Pre-training on Chest Radiology Images**](https://arxiv.org/pdf/2302.14042.pdf).
+The official codes for [**Knowledge-enhanced Visual-Language Pre-training on Chest Radiology Images**]([https://arxiv.org/pdf/2302.14042.pdf](https://www.nature.com/articles/s41467-023-40260-7)).
 
 
 ## Dependencies
@@ -16,7 +16,7 @@ To install Python dependencies:
 pip install -r requirements.txt
 ```
 
-**Note that the complete data file and model training logs/checkpoints can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz). and google drive with link: [https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link](https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=sharing).**
+**Note that the complete data file and model training logs/checkpoints can be download from link: https://pan.baidu.com/s/1Jokoeb6VCT1lvd9A1kNxog?pwd=m35f (m35f). and google drive with link: [https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link](https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=sharing).**
 
 
 ## Data
@@ -110,9 +110,21 @@ run the following command to perform Med-KEBERT pretraining
 
 ## Model Checkpoints
 
-We provide the models' checkpoints for KAD-512 and KAD-1024, which can be download from link :https://pan.baidu.com/s/1qFRuJNNmcL0pC1AtjFjbaw  (abrz) or from google drive with link: [https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link](https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=sharing).
+We provide the models' checkpoints for KAD-512 and KAD-1024, which can be download from https://pan.baidu.com/s/1Jokoeb6VCT1lvd9A1kNxog?pwd=m35f (m35f) or from google drive with link: [https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link](https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=sharing).
 
+## Citation
+If you use this code for your research or project, please cite:
 
+    @article{zhang2023knowledge,
+      title={Knowledge-enhanced visual-language pre-training on chest radiology images},
+      author={Zhang, Xiaoman and Wu, Chaoyi and Zhang, Ya and Xie, Weidi and Wang, Yanfeng},
+      journal={Nature Communications},
+      volume={14},
+      number={1},
+      pages={4542},
+      year={2023},
+      publisher={Nature Publishing Group UK London}
+    }
 
 If you have any question, please feel free to contact.
 

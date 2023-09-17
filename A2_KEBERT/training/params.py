@@ -128,7 +128,7 @@ def parse_args():
     )
     parser.add_argument(
         "--pretrained",
-        default='emilyalsentzer/Bio_ClinicalBERT',#
+        default='microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext',#
         type=str,
         help="Use a pretrained CLIP model weights with the specified tag or file path.",
     )
