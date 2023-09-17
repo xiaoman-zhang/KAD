@@ -128,7 +128,7 @@ if __name__ == '__main__':
     parser.add_argument("--use_entity_features", action="store_true")
     parser.add_argument('--image_encoder_name', default='resnet')
     parser.add_argument('--bert_pretrained', default='')
-    parser.add_argument('--bert_model_name', default='GanjinZero/UMLSBert_ENG')
+    parser.add_argument('--bert_model_name', default='')
     parser.add_argument('--save_result_path', default='./results/res_512/visualize')
     parser.add_argument('--output_dir', default='./results/res_512')
     parser.add_argument('--max_length', default=256, type=int)
