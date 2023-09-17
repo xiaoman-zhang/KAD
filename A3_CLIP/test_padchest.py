@@ -265,7 +265,7 @@ if __name__ == '__main__':
     parser.add_argument('--use_entity_features', default=True, type=bool)
     parser.add_argument('--image_encoder_name', default='resnet')
     parser.add_argument('--bert_pretrained', default='')
-    parser.add_argument('--bert_model_name', default='emilyalsentzer/Bio_ClinicalBERT')
+    parser.add_argument('--bert_model_name', default='GanjinZero/UMLSBert_ENG')
     parser.add_argument('--output_dir', default='')
     parser.add_argument('--max_length', default=256, type=int)
     parser.add_argument('--loss_ratio', default=1, type=int)
