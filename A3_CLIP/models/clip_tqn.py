@@ -83,6 +83,39 @@ class CLP_clinical(nn.Module):
         text2_features = F.normalize(text2_features, dim=-1)
         return text1_features, text2_features, self.logit_scale.exp()
 
+class ModelRes512(nn.Module):
+    def __init__(self, res_base_model):
+        super(ModelRes512, self).__init__()
+        self.resnet_dict = {"resnet50": models.resnet50(pretrained=True)}
+                            # "resnet50": models.resnet50(pretrained=True)}
+        self.resnet = self._get_res_basemodel(res_base_model)
+        num_ftrs = int(self.resnet.fc.in_features)
+        self.res_features = nn.Sequential(*list(self.resnet.children())[:-2])
+        self.res_l1 = nn.Linear(num_ftrs, num_ftrs)
+        self.res_l2 = nn.Linear(num_ftrs, 768)
+
+    def _get_res_basemodel(self, res_model_name):
+        try:
+            res_model = self.resnet_dict[res_model_name]
+            print("Image feature extractor:", res_model_name)
+            return res_model
+        except:
+            raise ("Invalid model name. Check the config file and pass one of: resnet18 or resnet50")
+
+    def forward(self, img):
+        #return (batchsize, patch_num, dim)
+        batch_size = img.shape[0]
+        res_fea = self.res_features(img)
+
+        res_fea = rearrange(res_fea,'b d n1 n2 -> b (n1 n2) d')
+        h = rearrange(res_fea,'b n d -> (b n) d')
+        x = self.res_l1(h)
+        x = F.relu(x)
+        x = self.res_l2(x)
+        out_emb = rearrange(x,'(b n) d -> b n d',b=batch_size)
+        out_pool = torch.mean(out_emb,dim=1)
+        return out_emb,out_pool
+
 class ModelRes(nn.Module):
     def __init__(self, res_base_model):
         super(ModelRes, self).__init__()
