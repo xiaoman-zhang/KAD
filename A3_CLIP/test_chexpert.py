@@ -28,7 +28,7 @@ from factory import utils
 from scheduler import create_scheduler
 from optim import create_optimizer
 from engine.train_fg import train,valid_on_cheXpert,valid_on_chestxray14
-from models.clip_tqn import CLP_clinical,ModelRes,ModelDense,TQN_Model
+from models.clip_tqn import CLP_clinical,ModelRes,ModelDense,TQN_Model,ModelRes512
 from dataset.test_dataset import CheXpert_Dataset_test
 
 def main(args, config):
@@ -60,7 +60,10 @@ def main(args, config):
     test_dataloader_chexpert.num_batches = len(test_dataloader_chexpert)  
 
     if args.image_encoder_name == 'resnet':
-        image_encoder = ModelRes(res_base_model='resnet50').to(device) 
+        if config['img_res'] == 224:
+            image_encoder = ModelRes(res_base_model='resnet50').to(device) 
+        else:
+            image_encoder = ModelRes512(res_base_model='resnet50').to(device) 
     elif args.image_encoder_name == 'densenet':
         image_encoder = ModelDense(dense_base_model='densenet121').to(device) 
     

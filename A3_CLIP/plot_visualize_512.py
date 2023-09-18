@@ -47,7 +47,11 @@ def main(args):
     cudnn.benchmark = True
 
     # model
-    image_encoder = ModelRes512(res_base_model='resnet50').to(device) 
+    if args.image_encoder_name == 'resnet':
+        if config['img_res'] == 224:
+            image_encoder = ModelRes(res_base_model='resnet50').to(device) 
+        else:
+            image_encoder = ModelRes512(res_base_model='resnet50').to(device) 
     tokenizer = AutoTokenizer.from_pretrained(args.bert_model_name,do_lower_case=True, local_files_only=True)
     text_encoder = CLP_clinical(bert_model_name=args.bert_model_name).to(device) 
 
@@ -66,7 +70,7 @@ def main(args):
 
     normalize = transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
     transform = transforms.Compose([                        
-                transforms.Resize([512,512], interpolation=Image.BICUBIC),
+                transforms.Resize([config['img_res'],config['img_res']], interpolation=Image.BICUBIC),
                 transforms.ToTensor(),
                 normalize,
             ])
