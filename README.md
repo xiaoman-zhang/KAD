@@ -90,12 +90,13 @@ run the following command to perform Med-KEBERT pretraining
 
   
 ## Zero-shot Inference
+**The img_res in configs need to be changed for different pre-trained checkpoints.**
 
-`python test_chestxray14.py --image_encoder_name  --bert_model_name xmcmic/Med-KEBERT  --bert_pretrained  --output_dir  --checkpoint --img_res ` 
+`python test_chestxray14.py --image_encoder_name  --bert_model_name xmcmic/Med-KEBERT  --bert_pretrained  --output_dir  --checkpoint   ` 
 
-`python test_chexpert.py --image_encoder_name  --bert_model_name xmcmic/Med-KEBERT  --bert_pretrained  --output_dir  --img_res ` 
+`python test_chexpert.py --image_encoder_name  --bert_model_name xmcmic/Med-KEBERT  --bert_pretrained  --output_dir   ` 
 
-`python test_padchest.py --image_encoder_name  --bert_model_name xmcmic/Med-KEBERT  --bert_pretrained  --output_dir  --checkpoint --img_res ` 
+`python test_padchest.py --image_encoder_name  --bert_model_name xmcmic/Med-KEBERT  --bert_pretrained  --output_dir  --checkpoint   ` 
 
 ###### Arguments
 
@@ -105,7 +106,7 @@ run the following command to perform Med-KEBERT pretraining
 
 - `--checkpoint` directory of  pre-trained model's checkpoints
 
-- `--img_res` the input image resolution, 512 for KAD-512 model and 1024 for KAD-1024
+- `--img_res` the input image resolution, 512 for KAD-512 model and 1024 for KAD-1024, changed in the config file
 
 
 ## Model Checkpoints
