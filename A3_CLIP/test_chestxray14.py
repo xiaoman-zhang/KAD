@@ -75,7 +75,7 @@ def main(args, config):
     text_encoder = CLP_clinical(bert_model_name=args.bert_model_name).to(device=device)
 
     if args.bert_pretrained:
-        checkpoint = torch.load(args.bert_pretrained), map_location='cpu')
+        checkpoint = torch.load(args.bert_pretrained, map_location='cpu')
         state_dict = checkpoint["state_dict"]
         text_encoder.load_state_dict(state_dict)
         print('Load pretrained bert success from: ',args.bert_pretrained)
@@ -141,93 +141,93 @@ def test(model,image_encoder, text_encoder, tokenizer, data_loader,device,args,c
     output.append('threshold')
     output.append(threshold)
     wf_result.writerow(output)
-
+    print(AUROCs)
     wf_result.writerow(AUROCs)
-    wf_result.writerow(F1s)
-    wf_result.writerow(mccs)
-    wf_result.writerow(Accs)
+    # wf_result.writerow(F1s)
+    # wf_result.writerow(mccs)
+    # wf_result.writerow(Accs)
     
-    AUROCs_list = []
-    mccs_list = []
-    F1s_list = []
-    Accs_list = []
+    # AUROCs_list = []
+    # mccs_list = []
+    # F1s_list = []
+    # Accs_list = []
 
-    data_len = 10000#len(gt)
-    for idx in  range(1000):
-        randnum = random.randint(0,5000)
-        random.seed(randnum)
-        gt_idx = random.choices(gt.cpu().numpy(), k=data_len)
-        random.seed(randnum)
-        pred_idx = random.choices(pred.cpu().numpy(), k=data_len)
-        gt_idx = np.array(gt_idx)
-        pred_idx = np.array(pred_idx)
+    # data_len = len(gt)
+    # for idx in  range(1000):
+    #     randnum = random.randint(0,5000)
+    #     random.seed(randnum)
+    #     gt_idx = random.choices(gt.cpu().numpy(), k=data_len)
+    #     random.seed(randnum)
+    #     pred_idx = random.choices(pred.cpu().numpy(), k=data_len)
+    #     gt_idx = np.array(gt_idx)
+    #     pred_idx = np.array(pred_idx)
         
-        AUROCs_idx = compute_AUCs(gt_idx, pred_idx)
-        mccs_idx = compute_mccs_threshold(gt_idx, pred_idx,threshold)
-        F1s_idx = compute_F1s_threshold(gt_idx,pred_idx,threshold)
-        Accs_idx = compute_Accs_threshold(gt_idx,pred_idx,threshold)
+    #     AUROCs_idx = compute_AUCs(gt_idx, pred_idx)
+    #     mccs_idx = compute_mccs_threshold(gt_idx, pred_idx,threshold)
+    #     F1s_idx = compute_F1s_threshold(gt_idx,pred_idx,threshold)
+    #     Accs_idx = compute_Accs_threshold(gt_idx,pred_idx,threshold)
 
-        AUROCs_list.append(AUROCs_idx[1:]) #1000,5
-        mccs_list.append(mccs_idx[1:])
-        F1s_list.append(F1s_idx[1:])
-        Accs_list.append(Accs_idx[1:])
+    #     AUROCs_list.append(AUROCs_idx[1:]) #1000,5
+    #     mccs_list.append(mccs_idx[1:])
+    #     F1s_list.append(F1s_idx[1:])
+    #     Accs_list.append(Accs_idx[1:])
     
-    AUROCs_5,AUROCs_95,AUROCs_mean = get_sort_eachclass(AUROCs_list)
-    output = []
-    output.append('perclass_AUROCs_5')
-    output.extend(AUROCs_5)
-    wf_result.writerow(output)
-    output = []
-    output.append('perclass_AUROCs_95')
-    output.extend(AUROCs_95)
-    wf_result.writerow(output)
-    output = []
-    output.append('perclass_AUROCs_mean')
-    output.extend(AUROCs_mean)
-    wf_result.writerow(output)
+    # AUROCs_5,AUROCs_95,AUROCs_mean = get_sort_eachclass(AUROCs_list)
+    # output = []
+    # output.append('perclass_AUROCs_5')
+    # output.extend(AUROCs_5)
+    # wf_result.writerow(output)
+    # output = []
+    # output.append('perclass_AUROCs_95')
+    # output.extend(AUROCs_95)
+    # wf_result.writerow(output)
+    # output = []
+    # output.append('perclass_AUROCs_mean')
+    # output.extend(AUROCs_mean)
+    # wf_result.writerow(output)
 
-    mccs_5,mccs_95,mccs_mean = get_sort_eachclass(mccs_list)
-    output = []
-    output.append('perclass_mccs_5')
-    output.extend(mccs_5)
-    wf_result.writerow(output)
-    output = []
-    output.append('perclass_mccs_95')
-    output.extend(mccs_95)
-    wf_result.writerow(output)
-    output = []
-    output.append('perclass_mccs_mean')
-    output.extend(mccs_mean)
-    wf_result.writerow(output)
+    # mccs_5,mccs_95,mccs_mean = get_sort_eachclass(mccs_list)
+    # output = []
+    # output.append('perclass_mccs_5')
+    # output.extend(mccs_5)
+    # wf_result.writerow(output)
+    # output = []
+    # output.append('perclass_mccs_95')
+    # output.extend(mccs_95)
+    # wf_result.writerow(output)
+    # output = []
+    # output.append('perclass_mccs_mean')
+    # output.extend(mccs_mean)
+    # wf_result.writerow(output)
 
 
-    F1s_5,F1s_95,F1s_mean = get_sort_eachclass(F1s_list)
-    output = []
-    output.append('perclass_F1s_5')
-    output.extend(F1s_5)
-    wf_result.writerow(output)
-    output = []
-    output.append('perclass_F1s_95')
-    output.extend(F1s_95)
-    wf_result.writerow(output)
-    output = []
-    output.append('perclass_F1s_mean')
-    output.extend(F1s_mean)
-    wf_result.writerow(output)
+    # F1s_5,F1s_95,F1s_mean = get_sort_eachclass(F1s_list)
+    # output = []
+    # output.append('perclass_F1s_5')
+    # output.extend(F1s_5)
+    # wf_result.writerow(output)
+    # output = []
+    # output.append('perclass_F1s_95')
+    # output.extend(F1s_95)
+    # wf_result.writerow(output)
+    # output = []
+    # output.append('perclass_F1s_mean')
+    # output.extend(F1s_mean)
+    # wf_result.writerow(output)
     
-    Accs_5,Accs_95,Accs_mean = get_sort_eachclass(Accs_list)
-    output = []
-    output.append('perclass_Accs_5')
-    output.extend(Accs_5)
-    wf_result.writerow(output)
-    output = []
-    output.append('perclass_Accs_95')
-    output.extend(Accs_95)
-    wf_result.writerow(output)
-    output = []
-    output.append('perclass_Accs_mean')
-    output.extend(Accs_mean)
-    wf_result.writerow(output)
+    # Accs_5,Accs_95,Accs_mean = get_sort_eachclass(Accs_list)
+    # output = []
+    # output.append('perclass_Accs_5')
+    # output.extend(Accs_5)
+    # wf_result.writerow(output)
+    # output = []
+    # output.append('perclass_Accs_95')
+    # output.extend(Accs_95)
+    # wf_result.writerow(output)
+    # output = []
+    # output.append('perclass_Accs_mean')
+    # output.extend(Accs_mean)
+    # wf_result.writerow(output)
     f_result.close()
 
 
@@ -345,8 +345,6 @@ def compute_mccs(gt, pred, n_class=14):
     return mccs,select_best_thresholds
 
 
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--config', default='./configs/Res_train.yaml')
@@ -375,6 +373,5 @@ if __name__ == '__main__':
     torch.cuda._initialized = True
 
     main(args, config)
-    # python test_chestxray14.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --checkpoint 
 
-
+# srun --partition=medai --mpi=pmi2 --gres=gpu:1 --quotatype=auto -n1 --ntasks-per-node=1 --job-name=res --kill-on-bad-exit=1 python test_chestxray14.py --bert_model_name  xmcmic/Med-KEBERT   --bert_pretrained /mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/R1_CLIP_LR/epoch_latest.pt  --output_dir /mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/R4_CLIP_Query/results/res_normal  --checkpoint /mnt/petrelfs/zhangxiaoman/CODE/2022_UMLS_CLIP/R4_CLIP_Query/results/res_normal/best_valid.pt
