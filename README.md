@@ -66,7 +66,7 @@ run the following command to perform Med-KEBERT pretraining
 
 `cd ./A2_KEBERT`
 
-`python main.py --pretrained microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext --batch-size 256 --max_length 128 --logs logs --name medkgbert --output_dir --aws_output_dir ` 
+`python main.py --pretrained GanjinZero/UMLSBert_ENG --batch-size 256 --max_length 128 --logs logs --name medkgbert --output_dir --aws_output_dir ` 
 
 ###### Arguments
 
@@ -77,7 +77,7 @@ run the following command to perform Med-KEBERT pretraining
 
 `cd ./A3_CLIP`
 
-`python main.py --use_entity_features --image_encoder_name resnet  --bert_model_name microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext --freeze_bert  --bert_pretrained --output_dir --aws_output_dir`
+`python main.py --use_entity_features --image_encoder_name resnet  --bert_model_name xmcmic/Med-KEBERT --freeze_bert  --bert_pretrained --output_dir --aws_output_dir`
 
 ###### Arguments
 - `--freeze_bert` whether freeze bert 
@@ -91,11 +91,11 @@ run the following command to perform Med-KEBERT pretraining
   
 ## Zero-shot Inference
 
-`python test_chestxray14.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --checkpoint --img_res ` 
+`python test_chestxray14.py --image_encoder_name  --bert_model_name xmcmic/Med-KEBERT  --bert_pretrained  --output_dir  --checkpoint --img_res ` 
 
-`python test_chexpert.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --img_res ` 
+`python test_chexpert.py --image_encoder_name  --bert_model_name xmcmic/Med-KEBERT  --bert_pretrained  --output_dir  --img_res ` 
 
-`python test_padchest.py --image_encoder_name  --bert_model_name   --bert_pretrained  --output_dir  --checkpoint --img_res ` 
+`python test_padchest.py --image_encoder_name  --bert_model_name xmcmic/Med-KEBERT  --bert_pretrained  --output_dir  --checkpoint --img_res ` 
 
 ###### Arguments
 

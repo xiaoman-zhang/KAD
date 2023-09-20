@@ -268,7 +268,7 @@ if __name__ == '__main__':
     parser.add_argument('--use_entity_features', default=True, type=bool)
     parser.add_argument('--image_encoder_name', default='resnet')
     parser.add_argument('--bert_pretrained', default='')
-    parser.add_argument('--bert_model_name', default='microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext')
+    parser.add_argument('--bert_model_name', default='xmcmic/Med-KEBERT')
     parser.add_argument('--output_dir', default='')
     parser.add_argument('--max_length', default=256, type=int)
     parser.add_argument('--loss_ratio', default=1, type=int)
@@ -289,4 +289,5 @@ if __name__ == '__main__':
     torch.cuda._initialized = True
 
     main(args, config)
+    # --bert_model_name  xmcmic/Med-KEBERT
 
