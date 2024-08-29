@@ -16,8 +16,7 @@ To install Python dependencies:
 pip install -r requirements.txt
 ```
 
-**Note that the complete data file and model training logs/checkpoints can be download from link: https://pan.baidu.com/s/1Jokoeb6VCT1lvd9A1kNxog?pwd=m35f (m35f). and google drive with link: [https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=share_link](https://drive.google.com/drive/folders/1xWVVJRfnm_wIgUpbn9ftsW4K5XKU0i0-?usp=sharing).**
-
+**Note that the complete data file and model training logs/checkpoints can be download from link: https://pan.baidu.com/s/1Jokoeb6VCT1lvd9A1kNxog?pwd=m35f (m35f). and google drive with link: https://drive.google.com/drive/folders/1ArEgk-VNKZnXd5Fjkf6tiNA4YvBDZCCF?usp=sharing
 
 ## Data
 
